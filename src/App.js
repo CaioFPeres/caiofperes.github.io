@@ -16,19 +16,19 @@ class App extends React.Component {
       <MainBackground>
         <Title>Caio Peres' Projects</Title>
         <CarouselSlide content={4}>
+          <a href="https://frevosfermentaria.com.br" target="_blank">
             <CardProject content={{ 
               src: frevoPreview, 
               title: "Frevo's Fermentaria Website", 
               description: "Website created with plain HTML, CSS, JS and Firebase.",
-              href: "http://frevosfermentaria.com.br",
               imageHeight: 170
             }}>
             </CardProject>
+          </a>
             <CardProject content={{ 
               src: bancoPreview, 
               title: "Banco de Celulas Website", 
               description: "Website created with plain HTML, CSS, JS and Firebase.",
-              href: "http://bancocelulas.web.app",
               imageHeight: 170
             }}>
             </CardProject>
@@ -36,20 +36,20 @@ class App extends React.Component {
               src: resumepreview, 
               title: "My Resume", 
               description: "Website created with plain HTML and CSS.",
-              href: "Resume",
               imageHeight: 170
             }}>
             </CardProject>
-            <CardProject content={{ 
-              src: frevoPreview, 
-              title: "Non-web Projects", 
-              description: "C/C++, C#, Java, Android.",
-              href: "OtherProjects",
-              imageHeight: 170
-              }}>
-            </CardProject>
+            <Link to="/OtherProjects" target="_blank">
+              <CardProject content={{ 
+                src: frevoPreview, 
+                title: "Non-web Projects", 
+                description: "C/C++, C#, Java, Android.",
+                imageHeight: 170
+                }}>
+              </CardProject>
+            </Link>
         </CarouselSlide>
-        <Footer>This website was made using React, and can be seen here: <Link to="http://google.com" style={{ textDecoration: "none" }}>Github</Link></Footer>
+        <Footer>This website was made using React, and can be seen here: <a href="https://github.com/CaioFPeres/caiofperes.github.io" style={{ textDecoration: "none" }}>Github</a></Footer>
       </MainBackground>
     );
   };
