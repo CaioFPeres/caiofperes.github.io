@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7c62740f.css",
-    "main.js": "/static/js/main.24767cea.js",
+    "main.js": "/static/js/main.acccdb45.js",
     "static/media/frevospreview.png": "/static/media/frevospreview.5235e6693eabc619603d.png",
     "static/media/androidpreview.jpg": "/static/media/androidpreview.c9a444c2692e3fe376ba.jpg",
     "static/media/metricspreview.png": "/static/media/metricspreview.6df4a32f4fff04991ff0.png",
@@ -15,10 +15,10 @@
     "static/media/messagepreview.png": "/static/media/messagepreview.ee926aa93368b60a525c.png",
     "index.html": "/index.html",
     "main.7c62740f.css.map": "/static/css/main.7c62740f.css.map",
-    "main.24767cea.js.map": "/static/js/main.24767cea.js.map"
+    "main.acccdb45.js.map": "/static/js/main.acccdb45.js.map"
   },
   "entrypoints": [
     "static/css/main.7c62740f.css",
-    "static/js/main.24767cea.js"
+    "static/js/main.acccdb45.js"
   ]
 }
