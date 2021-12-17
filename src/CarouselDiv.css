@@ -1,0 +1,44 @@
+.CarouselDiv{
+    display: block;
+    background-color: rgb(214, 214, 214);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 30px;
+
+    max-width: 1000px;
+    min-width: 270px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    height: auto;
+
+    box-shadow: 10px 10px #00000096;
+    border-radius: 10px;
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.CarouselDiv::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 1030px){
+    .CarouselDiv{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    .CarouselDiv{
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+}

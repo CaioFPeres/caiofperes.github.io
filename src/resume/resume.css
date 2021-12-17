@@ -1,0 +1,951 @@
+body {
+    margin: 0;
+    max-height: 1280px;
+}
+
+
+/* original colors: faixaCinza: #cacaca    and      colunaEsq: #333333   */
+
+
+
+@keyframes turnForwardFrente{
+    to{ transform: rotate3d(0, 1, 0, -90deg);
+    visibility: hidden;}
+}
+
+@keyframes turnForwardTras{
+    to { visibility: visible; transform: rotate3d(0, 1, 0, 0deg); }
+}
+
+@keyframes turnBackwardsFrente{
+    to{ transform: rotate3d(0, 1, 0, 0deg);
+    visibility: visible;}
+}
+
+@keyframes turnBackwardsTras{
+    to { visibility: hidden; transform: rotate3d(0, 1, 0, 90deg); }
+}
+
+
+
+
+.background{
+    position: relative;
+    background-color:black;
+    min-width: 1100px;
+    width: auto;
+    padding-top: 250px;
+    height: 1550px;
+
+    perspective: 2000px;
+}
+
+
+.nav{
+    z-index: 3;
+    position: fixed;
+    width: 83%;
+    height: auto;
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+
+.buttonNext{
+    z-index: 3;
+    display: block;
+    position: relative;
+    background-color: rgba(156, 156, 156, 0.719);
+    box-shadow: 0px 0px 3px 2px rgb(202, 202, 202);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    float: right;
+}
+
+.buttonNext:hover{
+    background-color: rgba(202, 202, 202, 0.534);
+}
+
+.buttonNext:active{
+    background-color: rgba(202, 202, 202, 0.719);
+    box-shadow: -2px -2px 3px 1px rgba(202, 202, 202);
+}
+
+.supNext{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 14px;
+    margin-left: 19px;
+    transform: rotate(45deg);
+    width: 14px;
+    height: 4px;
+}
+
+.infNext{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 22px;
+    margin-left: 18px;
+    transform: rotate(-45deg);
+    width: 14px;
+    height: 4px;
+}
+
+.horizNext{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 18px;
+    margin-left: 9px;
+    width: 18px;
+    height: 4px;
+}
+
+
+
+.buttonPrevious{
+    z-index: 3;
+    display: block;
+    visibility: hidden;
+    position: relative;
+    background-color: rgba(156, 156, 156, 0.719);
+    box-shadow: 0px 0px 3px 2px rgb(202, 202, 202);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    float: left;
+}
+
+.buttonPrevious:hover{
+    background-color: rgba(202, 202, 202, 0.534);
+}
+
+.buttonPrevious:active{
+    background-color: rgba(202, 202, 202, 0.719);
+    box-shadow: -2px -2px 3px 1px rgba(202, 202, 202);
+}
+
+.supPrevious{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 14px;
+    margin-left: 7px;
+    transform: rotate(-45deg);
+    width: 14px;
+    height: 4px;
+}
+
+.infPrevious{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 22px;
+    margin-left: 7px;
+    transform: rotate(45deg);
+    width: 14px;
+    height: 4px;
+}
+
+.horizPrevious{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 18px;
+    margin-left: 12px;
+    width: 18px;
+    height: 4px;
+}
+
+
+
+.internBackground{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 220px;
+    width: 900px;
+    height: 1130px;
+    background-color:white;
+}
+
+.folhaFrente{
+    z-index: 2;
+    position: absolute;
+    width: 1100px;
+    height: 1350px;
+
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.folhaForwardFrenteAnimated{
+    z-index: 2;
+    position: absolute;
+    width: 1100px;
+    height: 1280px;
+
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+
+    animation: turnForwardFrente 0.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+.folhaBackwardsFrenteAnimated{
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    width: 1100px;
+    height: 1280px;
+
+
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+
+    transform: rotate3d(0, 1, 0, -90deg);
+
+    animation: turnBackwardsFrente 0.6s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+    animation-timing-function: linear;
+}
+
+
+.folhaTras{
+    z-index: 1;
+    visibility: visible;
+    position: absolute;
+    width: 1100px;
+    height: 1280px;
+
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+
+    transform: rotate3d(0, 1, 0, 90deg);
+}
+
+
+.folhaForwardTrasAnimated{
+    z-index: 1;
+    visibility: visible;
+    position: absolute;
+    width: 1100px;
+    height: 1280px;
+
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+
+    transform: rotate3d(0, 1, 0, 90deg);
+
+    animation: turnForwardTras 0.6s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+    animation-timing-function: linear;
+}
+
+.folhaBackwardsTrasAnimated{
+    z-index: 1;
+    visibility: visible;
+    position: absolute;
+    width: 1100px;
+    height: 1280px;
+
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+
+    animation: turnBackwardsTras 0.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+
+
+.faixaCinza{
+    margin-left: 200px;
+    height:220px;
+    width: 900px;
+    background-color: #e2e2e2;
+    position: absolute;
+}
+
+.nome{
+    color: #282b2e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 43px;
+    padding-top: 25px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.developer{
+    font-size: 22px;
+    font-family: Tahoma, Geneva, sans-serif;
+    position: relative;
+    padding-left: 26px;
+    color: #282b2e;
+}
+
+.info{
+    color: #282b2e;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    width: 800px;
+    height: 80px;
+    margin-top: 35px;
+    margin-left: 26px;
+    line-height: 22px;
+    position: absolute;
+}
+
+.location{
+    padding-left: 400px;
+    width: 450px;
+    position: absolute;
+}
+
+.web{
+    position: absolute;
+    margin-top: -48px;
+    padding-left: 400px;
+    width: 400px;
+}
+
+.github{
+    position: absolute;
+    margin-top: -24px;
+    padding-left: 400px;
+    width: 300px;
+}
+
+
+
+
+
+
+.colunaEsq{
+    width: 200px;
+    height: 1350px;
+    background-color: #333333;
+    position: absolute;
+}
+
+
+.linhaCinza1{
+    width: 140px;
+    height: 4px;
+    background-color: #565656;
+    margin-top: 240px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.profile{
+    font-size: 19px;
+    font-family: Amiko;
+    position: relative;
+    color: white;
+    margin-left: 118px;
+    margin-top: 10px;
+}
+
+.linhaCinza2{
+    width: 140px;
+    height: 4px;
+    background-color: #565656;
+    margin-top: 70px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.experience{
+    font-size: 19px;
+    font-family: Amiko;
+    position: relative;
+    color: white;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.linhaCinza3{
+    width: 140px;
+    height: 4px;
+    background-color: #565656;
+    margin-top: 130px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.edu{
+    font-size: 19px;
+    position: relative;
+    color: white;
+    margin-left: 85px;
+    margin-top: 10px;
+    font-family: Amiko;
+}
+
+.linhaCinza4{
+    width: 140px;
+    height: 4px;
+    background-color: #565656;
+    margin-top: 36px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.skills{
+    font-size: 19px;
+    position: relative;
+    color: white;
+    margin-left: 130px;
+    margin-top: 10px;
+    font-family: Amiko;
+}
+
+.linhaCinza5{
+    width: 140px;
+    height: 4px;
+    background-color: #565656;
+    margin-top: 435px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.hobbies{
+    font-size: 19px;
+    position: relative;
+    color: white;
+    margin-left: 102px;
+    margin-top: 10px;
+    font-family: Amiko;
+}
+
+.linhaCinza6{
+    width: 140px;
+    height: 4px;
+    background-color: #565656;
+    margin-top: 101px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.achievements{
+    font-size: 19px;
+    position: relative;
+    color: white;
+    margin-left: 45px;
+    margin-top: 10px;
+    font-family: Amiko;
+}
+
+
+
+
+.linhaBranca1{
+    position: absolute;
+    background-color: #d8d8d8;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 850px;
+    height: 5px;
+    z-index: 1;
+}
+
+
+.descProfile{
+    text-align: justify;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 40px;
+    padding-right: 25px;
+    font-family: Amiko;
+    width: auto;
+}
+
+.linhaBranca2{
+    position: absolute;
+    background-color: #d8d8d8;
+    margin-top: 130px;
+    margin-left: 30px;
+    width: 850px;
+    height: 5px;
+    z-index: 1;
+}
+
+.descExperience{
+    text-align: justify;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 40px;
+    padding-right: 25px;
+    font-family: Amiko;
+    width: auto;
+}
+
+.linhaBranca3{
+    position: absolute;
+    background-color: #d8d8d8;
+    margin-top: 300px;
+    margin-left: 30px;
+    width: 850px;
+    height: 5px;
+    z-index: 1;
+}
+
+.descEdu{
+    text-align: justify;
+    font-size: 17px;
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 40px;
+    font-family: Amiko;
+    width: 850px;
+}
+
+.ufscar{
+    text-align: justify;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 39px;
+    font-family: Amiko;
+    width: 850px;
+}
+
+.linhaBranca4{
+    position: absolute;
+    background-color: #d8d8d8;
+    margin-top: 375px;
+    margin-left: 30px;
+    width: 850px;
+    height: 5px;
+}
+
+
+
+
+.webDev{
+    text-align: justify;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 120px;
+    font-family: Amiko;
+}
+
+.webSkills{
+    margin-left: -80px;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.bolinhaHTML{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 220px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaCSS{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 236px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaJS{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 188.5px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaNode{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 207.5px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinha{
+    height: 15px;
+    width: 15px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaVazia{
+    height: 15px;
+    width: 15px;
+    background-color: #3333334d;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+.sysNet{
+    text-align: justify;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 535px;
+    margin-left: 160px;
+    font-family: Amiko;
+}
+
+.sysSkills{
+    margin-left: -120px;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.bolinhaWin{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 123px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaLinux{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 154px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+.method{
+    text-align: justify;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 660px;
+    margin-left: 126px;
+    font-family: Amiko;
+}
+
+.methodSkills{
+    margin-left: -86px;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.bolinhaScrum{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 217px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaFerm{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 161px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaBeverages{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 76px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+.softwareDev{
+    text-align: justify;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 570px;
+    font-family: Amiko;
+    width: 260px;
+}
+
+.softwareSkills{
+    margin-left: -67px;
+    margin-top: 10px;
+    width: 370px;
+}
+
+.bolinhaAndroid{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 204px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaJava{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 233px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaC{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 256.5px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaCPP{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 237.5px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaCS{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 202.6px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaPy{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 211px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+.databases{
+    text-align: justify;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 620px;
+    font-family: Amiko;
+    width: 200px;
+}
+
+.dbSkills{
+    margin-left: -117px;
+    margin-top: 10px;
+    width: 370px;
+}
+
+.bolinhaMySQL{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 210px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaPostgres{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 199px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bolinhaFirebase{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 201px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+.languages{
+    text-align: justify;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 690px;
+    margin-left: 617px;
+    font-family: Amiko;
+    width: 200px;
+}
+
+.linguas{
+    margin-left: -114px;
+    margin-top: 10px;
+    width: 370px;
+}
+
+.bolinhaPortuguese{
+    position: relative;
+    margin-left: 214px;
+    display: inline-block;
+}
+
+.bolinhaEnglish{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 210px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+.digital{
+    text-align: justify;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 130px;
+    font-family: Amiko;
+    width: 200px;
+}
+
+.digitalSkills{
+    margin-left: -90px;
+    margin-top: 10px;
+    width: 370px;
+}
+
+.bolinhaArduino{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 205px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.linhaBranca5{
+    position: absolute;
+    background-color: #d8d8d8;
+    margin-top: 851px;
+    margin-left: 30px;
+    width: 850px;
+    height: 5px;
+}
+
+
+.hobbiesIMG{
+    position: absolute;
+    margin-top: 870px;
+    margin-left: 50px;
+    width: 820px;
+    height: auto;
+}
+
+
+
+
+.linhaBranca6{
+    position: absolute;
+    background-color: #d8d8d8;
+    margin-top: 992px;
+    margin-left: 30px;
+    width: 850px;
+    height: 5px;
+}
+
+.toefl{
+    margin-top: 1005px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Amiko;
+    position: absolute;
+}
+
+
+@media screen and (max-width: 550px){
+
+    .background{
+        padding-bottom: 300px;
+    }
+
+}
+
+
+@media screen and (max-width: 1470px){
+
+    .nav{
+        margin-top: 100px;
+    }
+
+}
