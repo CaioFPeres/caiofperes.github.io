@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, HashRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import App from "./App";
 import Resume from "./Resume";
@@ -10,7 +10,7 @@ class Router extends React.Component {
 
     render(){
         return(
-            <HashRouter>
+            <BrowserRouter>
                 <Routes>
                     <Route exact path="/" element={<App />} />
                     <Route path="/Resume" element={<Resume />} />
@@ -24,7 +24,7 @@ class Router extends React.Component {
                         }
                     />
                 </Routes>
-          </HashRouter>
+          </BrowserRouter>
         )
     }
 
