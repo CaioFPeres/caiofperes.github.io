@@ -11,7 +11,7 @@ import "./breakWord.css"
 class CardProject extends React.Component {
   render() {
     return (
-      <Card sx={{ mr: 1, ml: this.props.content.marginLeft || 6, mb: 6, display: "inline-block", width: "auto", maxWidth: 330, boxShadow: "10px 10px rgb(143, 143, 143)" }} >
+      <Card sx={{ mr: 1, ml: this.props.content.marginLeft || 6, mb: 6, display: "inline-block", width: "auto", maxWidth: 330, boxShadow: "10px 10px rgb(143, 143, 143)" }} onClick={ event => { window.open(this.props.content.href)}} >
         <CardActionArea>
           <CardMedia
             component="img"
