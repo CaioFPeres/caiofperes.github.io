@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c62740f.css",
-    "main.js": "/static/js/main.58e36e26.js",
+    "main.css": "/static/css/main.72bf7bb7.css",
+    "main.js": "/static/js/main.bea61c93.js",
     "static/media/frevospreview.png": "/static/media/frevospreview.5235e6693eabc619603d.png",
     "static/media/androidpreview.jpg": "/static/media/androidpreview.c9a444c2692e3fe376ba.jpg",
     "static/media/metricspreview.png": "/static/media/metricspreview.6df4a32f4fff04991ff0.png",
@@ -10,15 +10,16 @@
     "static/media/resumepreview.png": "/static/media/resumepreview.bee766553767c361ed13.png",
     "static/media/minecraftpreview.png": "/static/media/minecraftpreview.9b1a7ae12fddb1bb3835.png",
     "static/media/bancopreview.png": "/static/media/bancopreview.e962fff8cfb6ac338c9f.png",
+    "static/media/hobbies.jpg": "/static/media/hobbies.dc73df38e377d759f91d.jpg",
     "static/media/sunflower.otf": "/static/media/sunflower.80c060930d4a922a2603.otf",
     "static/media/serialpreview.png": "/static/media/serialpreview.becca07380892ce43ce7.png",
     "static/media/messagepreview.png": "/static/media/messagepreview.ee926aa93368b60a525c.png",
     "index.html": "/index.html",
-    "main.7c62740f.css.map": "/static/css/main.7c62740f.css.map",
-    "main.58e36e26.js.map": "/static/js/main.58e36e26.js.map"
+    "main.72bf7bb7.css.map": "/static/css/main.72bf7bb7.css.map",
+    "main.bea61c93.js.map": "/static/js/main.bea61c93.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c62740f.css",
-    "static/js/main.58e36e26.js"
+    "static/css/main.72bf7bb7.css",
+    "static/js/main.bea61c93.js"
   ]
 }
