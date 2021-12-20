@@ -363,7 +363,7 @@ body {
     font-family: Amiko;
     position: relative;
     color: white;
-    margin-left: 118px;
+    margin-left: 125px;
     margin-top: 10px;
 }
 
@@ -381,7 +381,7 @@ body {
     font-family: Amiko;
     position: relative;
     color: white;
-    margin-left: 75px;
+    margin-left: 90px;
     margin-top: 10px;
 }
 
@@ -398,7 +398,7 @@ body {
     font-size: 19px;
     position: relative;
     color: white;
-    margin-left: 85px;
+    margin-left: 100px;
     margin-top: 10px;
     font-family: Amiko;
 }
@@ -434,7 +434,7 @@ body {
     font-size: 19px;
     position: relative;
     color: white;
-    margin-left: 102px;
+    margin-left: 114px;
     margin-top: 10px;
     font-family: Amiko;
 }
@@ -452,7 +452,7 @@ body {
     font-size: 19px;
     position: relative;
     color: white;
-    margin-left: 45px;
+    margin-left: 67px;
     margin-top: 10px;
     font-family: Amiko;
 }
@@ -485,7 +485,7 @@ body {
 .linhaBranca2{
     position: absolute;
     background-color: #d8d8d8;
-    margin-top: 130px;
+    margin-top: 125px;
     margin-left: 30px;
     width: 850px;
     height: 5px;
@@ -496,7 +496,7 @@ body {
     text-align: justify;
     font-size: 15px;
     position: absolute;
-    margin-top: 145px;
+    margin-top: 140px;
     margin-left: 40px;
     padding-right: 25px;
     font-family: Amiko;
@@ -506,7 +506,7 @@ body {
 .linhaBranca3{
     position: absolute;
     background-color: #d8d8d8;
-    margin-top: 300px;
+    margin-top: 291px;
     margin-left: 30px;
     width: 850px;
     height: 5px;
@@ -517,7 +517,7 @@ body {
     text-align: justify;
     font-size: 17px;
     position: absolute;
-    margin-top: 315px;
+    margin-top: 305px;
     margin-left: 40px;
     font-family: Amiko;
     width: 850px;
@@ -527,7 +527,7 @@ body {
     text-align: justify;
     font-size: 16px;
     position: absolute;
-    margin-top: 340px;
+    margin-top: 328px;
     margin-left: 39px;
     font-family: Amiko;
     width: 850px;
@@ -536,7 +536,7 @@ body {
 .linhaBranca4{
     position: absolute;
     background-color: #d8d8d8;
-    margin-top: 375px;
+    margin-top: 363px;
     margin-left: 30px;
     width: 850px;
     height: 5px;
@@ -549,7 +549,7 @@ body {
     text-align: justify;
     font-size: 16px;
     position: absolute;
-    margin-top: 395px;
+    margin-top: 385px;
     margin-left: 120px;
     font-family: Amiko;
 }
@@ -564,7 +564,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 220px;
+    margin-left: 214px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -574,7 +574,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 236px;
+    margin-left: 230px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -584,7 +584,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 188.5px;
+    margin-left: 194.5px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -594,7 +594,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 207.5px;
+    margin-left: 208.5px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -623,7 +623,7 @@ body {
     text-align: justify;
     font-size: 16px;
     position: absolute;
-    margin-top: 535px;
+    margin-top: 525px;
     margin-left: 160px;
     font-family: Amiko;
 }
@@ -638,7 +638,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 123px;
+    margin-left: 140px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -648,7 +648,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 154px;
+    margin-left: 163px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -660,7 +660,7 @@ body {
     text-align: justify;
     font-size: 16px;
     position: absolute;
-    margin-top: 660px;
+    margin-top: 650px;
     margin-left: 126px;
     font-family: Amiko;
 }
@@ -708,7 +708,7 @@ body {
     text-align: justify;
     font-size: 16px;
     position: absolute;
-    margin-top: 395px;
+    margin-top: 385px;
     margin-left: 570px;
     font-family: Amiko;
     width: 260px;
@@ -724,7 +724,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 204px;
+    margin-left: 206px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -734,7 +734,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 233px;
+    margin-left: 231px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -744,7 +744,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 256.5px;
+    margin-left: 249px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -754,7 +754,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 237.5px;
+    margin-left: 231px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -764,7 +764,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 202.6px;
+    margin-left: 201.6px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -774,7 +774,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 211px;
+    margin-left: 214px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -787,7 +787,7 @@ body {
     text-align: justify;
     font-size: 16px;
     position: absolute;
-    margin-top: 560px;
+    margin-top: 550px;
     margin-left: 620px;
     font-family: Amiko;
     width: 200px;
@@ -803,7 +803,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 210px;
+    margin-left: 206px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -813,7 +813,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 199px;
+    margin-left: 205px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -823,7 +823,7 @@ body {
     position: relative;
     height: 15px;
     width: 15px;
-    margin-left: 201px;
+    margin-left: 205px;
     background-color: #333333;
     border-radius: 50%;
     display: inline-block;
@@ -836,7 +836,7 @@ body {
     text-align: justify;
     font-size: 16px;
     position: absolute;
-    margin-top: 690px;
+    margin-top: 680px;
     margin-left: 617px;
     font-family: Amiko;
     width: 200px;
@@ -871,7 +871,7 @@ body {
     text-align: justify;
     font-size: 16px;
     position: absolute;
-    margin-top: 750px;
+    margin-top: 740px;
     margin-left: 130px;
     font-family: Amiko;
     width: 200px;
@@ -897,7 +897,7 @@ body {
 .linhaBranca5{
     position: absolute;
     background-color: #d8d8d8;
-    margin-top: 851px;
+    margin-top: 833px;
     margin-left: 30px;
     width: 850px;
     height: 5px;
@@ -906,7 +906,7 @@ body {
 
 .hobbiesIMG{
     position: absolute;
-    margin-top: 870px;
+    margin-top: 850px;
     margin-left: 50px;
     width: 820px;
     height: auto;
@@ -918,14 +918,14 @@ body {
 .linhaBranca6{
     position: absolute;
     background-color: #d8d8d8;
-    margin-top: 992px;
+    margin-top: 972px;
     margin-left: 30px;
     width: 850px;
     height: 5px;
 }
 
 .toefl{
-    margin-top: 1005px;
+    margin-top: 986px;
     margin-left: 40px;
     font-size: 20px;
     font-family: Amiko;

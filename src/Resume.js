@@ -1,4 +1,5 @@
 import React from 'react';
+import hobbiespreview from "./resume/hobbies.jpg"
 import "./Resume.css"
 
 class Resume extends React.Component {
@@ -6,40 +7,40 @@ class Resume extends React.Component {
     render() {
         return(
 
-            <div class="background">
+            <div className="background">
 
-                <div class="folhaFrente" id="folhaFrente">
+                <div className="folhaFrente" id="folhaFrente">
 
-                    <div class="faixaCinza">
+                    <div className="faixaCinza">
 
-                        <div class="nome">Caio Peres</div>
+                        <div className="nome">Caio Peres</div>
 
-                        <div class="developer">Developer</div>
+                        <div className="developer">Developer</div>
 
-                        <div class="info">
+                        <div className="info">
 
-                            <div class="location"> <b>Location:</b> Botucatu, São Paulo, Brazil</div>
+                            <div className="location"> <b>Location:</b> Botucatu, São Paulo, Brazil</div>
                         
-                            <div class="phone" style={{ marginBottom: "2px;"}}><b>Phone Number: </b>5514998708771</div>
+                            <div className="phone" style={{ marginBottom: "2px"}}><b>Phone Number: </b>5514998708771</div>
 
-                            <div class="email" style={{ marginBottom: "2px;"}}><b>Email: </b>caiofperes@hotmail.com</div>
+                            <div className="email" style={{ marginBottom: "2px"}}><b>Email: </b>caiofperes@hotmail.com</div>
 
-                            <div class="linkedin" style={{ marginBottom: "2px;"}}> <b>Linkedin: </b>https://linkedin.com/in/caiofperes/</div>
+                            <div className="linkedin" style={{ marginBottom: "2px"}}> <b>Linkedin: </b>https://linkedin.com/in/caiofperes/</div>
 
-                            <div class="web"><b>Web: </b>https://frevosfermentaria.com.br</div>
+                            <div className="web"><b>Web: </b>https://frevosfermentaria.com.br</div>
 
-                            <div class="github"> <b>Github: </b>https://github.com/CaioFPeres</div>
+                            <div className="github"> <b>Github: </b>https://github.com/CaioFPeres</div>
 
                         </div>
 
                     </div>
 
 
-                    <div class="internBackground">
+                    <div className="internBackground">
 
-                        <div class="linhaBranca1"></div>
+                        <div className="linhaBranca1"></div>
 
-                        <div class="descProfile">
+                        <div className="descProfile">
                                 
                             Possess experience in Web Development, Windows Development and Android Development.
 
@@ -49,10 +50,10 @@ class Resume extends React.Component {
 
                         </div>
 
-                        <div class="linhaBranca2"></div>
+                        <div className="linhaBranca2"></div>
 
                         
-                        <div class="descExperience">
+                        <div className="descExperience">
                             
                             Developed a complete management web system for UNESP University in Botucatu, São Paulo, which aimed to organize human and animal cells in nitrogen tanks. The system was design to attend users needs under a multiple option search engine, while being mobile and user friendly.
                             Developed own website to promote and manage its brewing hobby project. Also developed an Android Aplication for temperature monitoring along with an Arduino device to control a refrigerator temperature. The measured temperature could be seen on the website in a monitoring webpage which kept record of the past temperatures using Firebase in order to build a graph.
@@ -60,50 +61,50 @@ class Resume extends React.Component {
 
                         </div>
 
-                        <div class="linhaBranca3"></div>
+                        <div className="linhaBranca3"></div>
 
-                        <div class="descEdu"><b>Undergraduate Bachelor of Computer Science</b></div>
-                        <div class="ufscar"><i>UFSCAR, Sorocaba, Brazil</i></div>
-
-
+                        <div className="descEdu"><b>Undergraduate Bachelor of Computer Science</b></div>
+                        <div className="ufscar"><i>UFSCAR, Sorocaba, Brazil</i></div>
 
 
-                        <div class="linhaBranca4"></div>
-
-                        <div class="webDev"><b>Web Development</b>
 
 
-                            <div class="webSkills">
-                                <div class="html">HTML
-                                    <div class="bolinhaHTML"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
+                        <div className="linhaBranca4"></div>
+
+                        <div className="webDev"><b>Web Development</b>
+
+
+                            <div className="webSkills">
+                                <div className="html">HTML
+                                    <div className="bolinhaHTML"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
                                 </div>
 
-                                <div class="css">CSS
-                                    <div class="bolinhaCSS"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
+                                <div className="css">CSS
+                                    <div className="bolinhaCSS"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
                                 </div>
 
-                                <div class="javascript">Javascript
-                                    <div class="bolinhaJS"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
+                                <div className="javascript">Javascript
+                                    <div className="bolinhaJS"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
                                 </div>
 
-                                <div class="node">NodeJS
-                                    <div class="bolinhaNode"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
-                                    <div class="bolinhaVazia"></div>
+                                <div className="node">NodeJS
+                                    <div className="bolinhaNode"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
+                                    <div className="bolinhaVazia"></div>
                                 </div>
 
                             </div>
@@ -112,23 +113,23 @@ class Resume extends React.Component {
 
 
 
-                        <div class="sysNet"><b>Systems</b>
+                        <div className="sysNet"><b>Systems</b>
 
-                            <div class="sysSkills">
-                                <div class="winSys">Windows Systems
-                                    <div class="bolinhaWin"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
+                            <div className="sysSkills">
+                                <div className="winSys">Windows Systems
+                                    <div className="bolinhaWin"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
                                 </div>
                                 
-                                <div class="linuxSys">Linux Systems
-                                    <div class="bolinhaLinux"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
+                                <div className="linuxSys">Linux Systems
+                                    <div className="bolinhaLinux"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
                                 </div>
 
                             </div>
@@ -137,15 +138,15 @@ class Resume extends React.Component {
 
 
 
-                        <div class="method"><b>IT Methodologies</b>
+                        <div className="method"><b>IT Methodologies</b>
 
-                            <div class="methodSkills">
-                                <div class="scrum">Scrum
-                                    <div class="bolinhaScrum"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
+                            <div className="methodSkills">
+                                <div className="scrum">Scrum
+                                    <div className="bolinhaScrum"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
                                 </div>
 
                             </div>
@@ -154,88 +155,54 @@ class Resume extends React.Component {
 
 
 
-                        <div class="softwareDev"><b>Software Development</b>
-                            <div class="softwareSkills">
-                                <div class="Android">Android
-                                    <div class="bolinhaAndroid"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
+                        <div className="softwareDev"><b>Software Development</b>
+                            <div className="softwareSkills">
+                                <div className="Android">Android
+                                    <div className="bolinhaAndroid"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
                                 </div>
 
-                                <div class="Java">Java
-                                    <div class="bolinhaJava"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
+                                <div className="Java">Java
+                                    <div className="bolinhaJava"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
                                 </div>
 
-                                <div class="CS">C# .NET
-                                    <div class="bolinhaCS"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
+                                <div className="CS">C# .NET
+                                    <div className="bolinhaCS"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
                                 </div>
 
-                                <div class="python">Python
-                                    <div class="bolinhaPy"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
-                                    <div class="bolinhaVazia"></div>
+                                <div className="python">Python
+                                    <div className="bolinhaPy"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
+                                    <div className="bolinhaVazia"></div>
                                 </div>
 
-                                <div class="C">C
-                                    <div class="bolinhaC"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
+                                <div className="C">C
+                                    <div className="bolinhaC"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
                                 </div>
 
-                                <div class="CPP">C++
-                                    <div class="bolinhaCPP"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-
-
-                        <div class="databases"><b>Databases</b>
-                            <div class="dbSkills">
-
-                                <div class="mySQL">MySQL
-                                    <div class="bolinhaMySQL"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
-                                </div>
-
-                                <div class="postgres">Postgres
-                                    <div class="bolinhaPostgres"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
-                                </div>
-
-                                <div class="firebase">Firebase
-                                    <div class="bolinhaFirebase"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
+                                <div className="CPP">C++
+                                    <div className="bolinhaCPP"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
                                 </div>
 
                             </div>
@@ -245,32 +212,66 @@ class Resume extends React.Component {
 
 
 
-                        <div class="languages"><b>Languages</b>
-                            <div class="linguas">
-                                <div class="portuguese">Portuguese
-                                    <div class="bolinhaPortuguese"><b>Native</b></div>
+                        <div className="databases"><b>Databases</b>
+                            <div className="dbSkills">
+
+                                <div className="mySQL">MySQL
+                                    <div className="bolinhaMySQL"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
                                 </div>
 
-                                <div class="english">English
-                                    <div class="bolinhaEnglish"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
+                                <div className="postgres">Postgres
+                                    <div className="bolinhaPostgres"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
+                                </div>
+
+                                <div className="firebase">Firebase
+                                    <div className="bolinhaFirebase"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div className="languages"><b>Languages</b>
+                            <div className="linguas">
+                                <div className="portuguese">Portuguese
+                                    <div className="bolinhaPortuguese"><b>Native</b></div>
+                                </div>
+
+                                <div className="english">English
+                                    <div className="bolinhaEnglish"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
                                 </div>
                             </div>
                         </div>
 
 
-                        <div class="digital"><b>Digital Eletronics</b>
+                        <div className="digital"><b>Digital Eletronics</b>
 
-                            <div class="digitalSkills">
-                                <div class="arduino">Arduino
-                                    <div class="bolinhaArduino"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinha"></div>
-                                    <div class="bolinhaVazia"></div>
+                            <div className="digitalSkills">
+                                <div className="arduino">Arduino
+                                    <div className="bolinhaArduino"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
                                 </div>
                             </div>
 
@@ -278,41 +279,41 @@ class Resume extends React.Component {
 
 
 
-                        <div class="linhaBranca5"></div>
-                        <img alt="hobbies" src="/hobbies.jpg" class="hobbiesIMG"/>
+                        <div className="linhaBranca5"></div>
+                        <img alt="hobbies" src={hobbiespreview} className="hobbiesIMG"/>
 
 
 
-                        <div class="linhaBranca6"></div>
-                        <div class="toefl">TOEFL'S ITP B2</div>
+                        <div className="linhaBranca6"></div>
+                        <div className="toefl">TOEFL'S ITP B2</div>
 
                     </div>
 
 
-                    <div class="colunaEsq">
+                    <div className="colunaEsq">
 
-                        <div class="linhaCinza1"></div>
-                        <div class="profile">Profile</div>
-
-
-                        <div class="linhaCinza2"></div>
-                        <div class="experience">Experience</div>
+                        <div className="linhaCinza1"></div>
+                        <div className="profile">Profile</div>
 
 
-                        <div class="linhaCinza3"></div>
-                        <div class="edu">Education</div>
+                        <div className="linhaCinza2"></div>
+                        <div className="experience">Experience</div>
 
 
-                        <div class="linhaCinza4"></div>
-                        <div class="skills">Skills</div>
+                        <div className="linhaCinza3"></div>
+                        <div className="edu">Education</div>
 
 
-                        <div class="linhaCinza5"></div>
-                        <div class="hobbies">Hobbies</div>
+                        <div className="linhaCinza4"></div>
+                        <div className="skills">Skills</div>
 
 
-                        <div class="linhaCinza6"></div>
-                        <div class="achievements">Achievements</div>
+                        <div className="linhaCinza5"></div>
+                        <div className="hobbies">Hobbies</div>
+
+
+                        <div className="linhaCinza6"></div>
+                        <div className="achievements">Achievements</div>
 
 
                     </div>
