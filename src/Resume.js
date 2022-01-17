@@ -27,7 +27,7 @@ class Resume extends React.Component {
 
                             <div className="linkedin" style={{ marginBottom: "2px"}}> <b>Linkedin: </b>https://linkedin.com/in/caiofperes/</div>
 
-                            <div className="web"><b>Web: </b>https://caiofperes.github.io/</div>
+                            <div className="web"><b>Portifolio: </b>https://caiofperes.github.io/</div>
 
                             <div className="github"> <b>Github: </b>https://github.com/CaioFPeres</div>
 
