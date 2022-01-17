@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.72bf7bb7.css",
-    "main.js": "/static/js/main.bea61c93.js",
+    "main.css": "/static/css/main.86262538.css",
+    "main.js": "/static/js/main.48da6559.js",
     "static/media/frevospreview.png": "/static/media/frevospreview.5235e6693eabc619603d.png",
+    "static/media/authExamplepreview.png": "/static/media/authExamplepreview.49628e9b1f4a4617c7f5.png",
+    "static/media/languagespreview.jpg": "/static/media/languagespreview.6cd9bb75c032c891f7d6.jpg",
     "static/media/androidpreview.jpg": "/static/media/androidpreview.c9a444c2692e3fe376ba.jpg",
     "static/media/metricspreview.png": "/static/media/metricspreview.6df4a32f4fff04991ff0.png",
     "static/media/fileicon.jpg": "/static/media/fileicon.59d71502535176156f40.jpg",
+    "static/media/neuralnetpreview.png": "/static/media/neuralnetpreview.ca37729a3c95fb5d6cc2.png",
     "static/media/google-logo.png": "/static/media/google-logo.0199d8e79706fd721d63.png",
     "static/media/resumepreview.png": "/static/media/resumepreview.bee766553767c361ed13.png",
     "static/media/minecraftpreview.png": "/static/media/minecraftpreview.9b1a7ae12fddb1bb3835.png",
@@ -15,11 +18,11 @@
     "static/media/serialpreview.png": "/static/media/serialpreview.becca07380892ce43ce7.png",
     "static/media/messagepreview.png": "/static/media/messagepreview.ee926aa93368b60a525c.png",
     "index.html": "/index.html",
-    "main.72bf7bb7.css.map": "/static/css/main.72bf7bb7.css.map",
-    "main.bea61c93.js.map": "/static/js/main.bea61c93.js.map"
+    "main.86262538.css.map": "/static/css/main.86262538.css.map",
+    "main.48da6559.js.map": "/static/js/main.48da6559.js.map"
   },
   "entrypoints": [
-    "static/css/main.72bf7bb7.css",
-    "static/js/main.bea61c93.js"
+    "static/css/main.86262538.css",
+    "static/js/main.48da6559.js"
   ]
 }
