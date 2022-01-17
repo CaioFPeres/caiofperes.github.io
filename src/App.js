@@ -7,6 +7,8 @@ import CarouselSlide from "./CarouselSlide";
 import frevoPreview from "./images/frevospreview.png";
 import bancoPreview from "./images/bancopreview.png";
 import resumepreview from "./images/resumepreview.png";
+import authExample from "./images/authExamplepreview.png";
+import languagesPreview from "./images/languagespreview.jpg";
 
 
 class App extends React.Component {
@@ -14,39 +16,49 @@ class App extends React.Component {
     return(
       <MainBackground>
         <Title>Caio Peres' Projects</Title>
-        <CarouselSlide content={4}>
-            <CardProject content={{ 
-              src: frevoPreview, 
-              title: "Frevo's Fermentaria Website", 
-              description: "Website created with plain HTML, CSS, JS and Firebase.",
-              href: "https://frevosfermentaria.com.br",
-              imageHeight: 170
+        <CarouselSlide>
+          <CardProject content={{ 
+            src: frevoPreview, 
+            title: "Frevo's Fermentaria Website", 
+            description: "Website created with plain HTML, CSS, JS and Firebase.",
+            app: "https://frevosfermentaria.com.br",
+            code: "https://github.com/CaioFPeres/FrevosFermentariaWebpage",
+            imageHeight: 170
+          }}>
+          </CardProject>
+          <CardProject content={{
+            src: bancoPreview, 
+            title: "Banco de Celulas Website", 
+            description: "Website created with plain HTML, CSS, JS and Firebase.",
+            app: "https://bancocelulas.web.app",
+            code: "https://github.com/CaioFPeres/BancoDeCelulas",
+            imageHeight: 170
+          }}>
+          </CardProject>
+          <CardProject content={{ 
+            src: authExample, 
+            title: "Auth Example", 
+            description: "Full client and server application, created using Node, Typescript, React, Mongo, etc.",
+            code: "https://github.com/CaioFPeres/AuthExample",
+            imageHeight: 170
+          }}>
+          </CardProject>
+          <CardProject content={{ 
+            src: resumepreview, 
+            title: "My Full Resume", 
+            description: "Website created with plain HTML and CSS.",
+            app: "Resume",
+            imageHeight: 170
+          }}>
+          </CardProject>
+          <CardProject content={{ 
+            src: languagesPreview, 
+            title: "Non-web Projects", 
+            description: "C/C++, C#, Java, Android.",
+            app: "OtherProjects",
+            imageHeight: 170
             }}>
-            </CardProject>
-            <CardProject content={{ 
-              src: bancoPreview, 
-              title: "Banco de Celulas Website", 
-              description: "Website created with plain HTML, CSS, JS and Firebase.",
-              href: "https://bancocelulas.web.app",
-              imageHeight: 170
-            }}>
-            </CardProject>
-            <CardProject content={{ 
-              src: resumepreview, 
-              title: "My Resume", 
-              description: "Website created with plain HTML and CSS.",
-              href: "Resume",
-              imageHeight: 170
-            }}>
-            </CardProject>
-            <CardProject content={{ 
-              src: frevoPreview, 
-              title: "Non-web Projects", 
-              description: "C/C++, C#, Java, Android.",
-              href: "OtherProjects",
-              imageHeight: 170
-              }}>
-            </CardProject>
+          </CardProject>
         </CarouselSlide>
         <Footer>This website was made using React, and can be seen here: <a href="https://github.com/CaioFPeres/caiofperes.github.io" style={{ textDecoration: "none" }}>Github</a></Footer>
       </MainBackground>

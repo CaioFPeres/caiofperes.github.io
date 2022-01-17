@@ -4,7 +4,7 @@ import CarouselDiv from "./CarouselDiv";
 class CarouselSlide extends React.Component {
     render() {
         return (
-            <CarouselDiv content={this.props.content}>
+            <CarouselDiv>
                 {this.props.children}
             </CarouselDiv>
         );

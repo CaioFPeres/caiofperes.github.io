@@ -13,13 +13,13 @@ class CarouselDiv extends React.Component {
         let beginning;
         let scrolling
         
-        let ratio = ((CarouselSize*2)/carousel.scrollWidth); // random ratio numbers
+        let ratio = ((CarouselSize*1.3)/carousel.scrollWidth); // random ratio numbers
 
         beginning = ((windowSize - CarouselSize)/2) + 200; // dividing by 2 to get the margin from the left, and + 200 to start a little to the right
         
         // dividing by ratio to be able to reach until the end 
         // (this will vary depending how many elements we have on the Carousel and page width)
-        scrolling = (e.clientX - beginning)/(ratio); 
+        scrolling = (e.clientX - beginning)/(ratio);
         
         
         if(CarouselSize < 800){

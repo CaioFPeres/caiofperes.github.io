@@ -15,7 +15,7 @@ class Resume extends React.Component {
 
                         <div className="nome">Caio Peres</div>
 
-                        <div className="developer">Developer</div>
+                        <div className="developer">Software Engineer</div>
 
                         <div className="info">
 
@@ -27,7 +27,7 @@ class Resume extends React.Component {
 
                             <div className="linkedin" style={{ marginBottom: "2px"}}> <b>Linkedin: </b>https://linkedin.com/in/caiofperes/</div>
 
-                            <div className="web"><b>Web: </b>https://frevosfermentaria.com.br</div>
+                            <div className="web"><b>Web: </b>https://caiofperes.github.io/</div>
 
                             <div className="github"> <b>Github: </b>https://github.com/CaioFPeres</div>
 
@@ -55,15 +55,15 @@ class Resume extends React.Component {
                         
                         <div className="descExperience">
                             
-                            Developed a complete management web system for UNESP University in Botucatu, São Paulo, which aimed to organize human and animal cells in nitrogen tanks. The system was design to attend users needs under a multiple option search engine, while being mobile and user friendly.
-                            Developed own website to promote and manage its brewing hobby project. Also developed an Android Aplication for temperature monitoring along with an Arduino device to control a refrigerator temperature. The measured temperature could be seen on the website in a monitoring webpage which kept record of the past temperatures using Firebase in order to build a graph.
+                            Developed a complete management web system using Firebase for UNESP University in Botucatu, São Paulo, which aimed to organize human and animal cells in nitrogen tanks. The system was designed to attend users needs under a multiple option search engine, while being mobile and user friendly.
+                            Developed own website to promote and manage my brewing hobby project, along with an Android Application for temperature monitoring and an Arduino device to control a refrigerator temperature. The measured temperature could be seen on the website in a monitoring webpage which kept record of the past temperatures using Firebase in order to build a chart.
                             Also developed several Java, Web (HTML, CSS and Javascript), C/C++ and C# applications.
 
                         </div>
 
                         <div className="linhaBranca3"></div>
 
-                        <div className="descEdu"><b>Undergraduate Bachelor of Computer Science</b></div>
+                        <div className="descEdu"><b>Undergraduate Student in Computer Science</b></div>
                         <div className="ufscar"><i>UFSCAR, Sorocaba, Brazil</i></div>
 
 
@@ -99,11 +99,27 @@ class Resume extends React.Component {
                                     <div className="bolinha"></div>
                                 </div>
 
+                                <div className="typescript">Typescript
+                                    <div className="bolinhaTS"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                </div>
+
+                                <div className="react">React
+                                    <div className="bolinhaReact"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
+                                </div>
+
                                 <div className="node">NodeJS
                                     <div className="bolinhaNode"></div>
                                     <div className="bolinha"></div>
                                     <div className="bolinha"></div>
-                                    <div className="bolinhaVazia"></div>
+                                    <div className="bolinha"></div>
                                     <div className="bolinhaVazia"></div>
                                 </div>
 
@@ -113,7 +129,7 @@ class Resume extends React.Component {
 
 
 
-                        <div className="sysNet"><b>Systems</b>
+                        <div className="sysNet"><b>Systems And VMs</b>
 
                             <div className="sysSkills">
                                 <div className="winSys">Windows Systems
@@ -130,6 +146,14 @@ class Resume extends React.Component {
                                     <div className="bolinha"></div>
                                     <div className="bolinha"></div>
                                     <div className="bolinhaVazia"></div>
+                                </div>
+
+                                <div className="docker">Docker
+                                    <div className="bolinhaDocker"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
                                 </div>
 
                             </div>
@@ -233,6 +257,14 @@ class Resume extends React.Component {
 
                                 <div className="firebase">Firebase
                                     <div className="bolinhaFirebase"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinha"></div>
+                                    <div className="bolinhaVazia"></div>
+                                </div>
+
+                                <div className="mongo">MongoDB
+                                    <div className="bolinhaMongo"></div>
                                     <div className="bolinha"></div>
                                     <div className="bolinha"></div>
                                     <div className="bolinha"></div>
