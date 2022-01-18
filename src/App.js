@@ -19,7 +19,8 @@ class App extends React.Component {
         <CarouselSlide>
           <CardProject content={{ 
             src: frevoPreview, 
-            title: "Frevo's Fermentaria Website", 
+            title: "Frevo's Fermentaria Website",
+            id: "card1",
             description: "Website created with plain HTML, CSS, JS and Firebase.",
             app: "https://frevosfermentaria.com.br",
             code: "https://github.com/CaioFPeres/FrevosFermentariaWebpage",
@@ -29,6 +30,7 @@ class App extends React.Component {
           <CardProject content={{
             src: bancoPreview, 
             title: "Banco de Celulas Website", 
+            id: "card2",
             description: "Website created with plain HTML, CSS, JS and Firebase.",
             app: "https://bancocelulas.web.app",
             code: "https://github.com/CaioFPeres/BancoDeCelulas",
@@ -37,7 +39,8 @@ class App extends React.Component {
           </CardProject>
           <CardProject content={{ 
             src: authExample, 
-            title: "Auth Example", 
+            title: "Auth Example",
+            id: "card3",
             description: "Full client and server application, created using Node, Typescript, React, Mongo, etc.",
             code: "https://github.com/CaioFPeres/AuthExample",
             imageHeight: 170
@@ -45,7 +48,8 @@ class App extends React.Component {
           </CardProject>
           <CardProject content={{ 
             src: resumepreview, 
-            title: "My Full Resume", 
+            title: "My Full Resume",
+            id: "card4",
             description: "Website created with plain HTML and CSS.",
             app: "Resume",
             imageHeight: 170
@@ -53,7 +57,8 @@ class App extends React.Component {
           </CardProject>
           <CardProject content={{ 
             src: languagesPreview, 
-            title: "Non-web Projects", 
+            title: "Non-web Projects",
+            id: "card5",
             description: "C/C++, C#, Java, Android.",
             app: "OtherProjects",
             imageHeight: 170
