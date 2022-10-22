@@ -22,7 +22,7 @@ class CardProject extends React.Component {
     
     //closing listener
     let listener = (ev) => {
-      if(this.state.menu && ev.target.id != "menu" && ev.target.id != "menuItem" && ev.target.id != e.target.id){
+      if(this.state.menu && ev.target.id !== "menu" && ev.target.id !== "menuItem" && ev.target.id !== e.target.id){
         this.setState({blur: false, menu: null});
         document.removeEventListener("click", listener);
       }
@@ -54,7 +54,7 @@ class CardProject extends React.Component {
               src={this.props.content.src}
               alt="Card"
             />
-            <CardContent style={ {height: this.props.content.textHeight || 80, filter: this.state.blur ? "blur(3px)" : "none" }}>
+            <CardContent style={ {height: this.props.content.textHeight || 80 }}>
               <Typography gutterBottom variant="h6" component="div">
                 {this.props.content.title}
               </Typography>

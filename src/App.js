@@ -31,7 +31,7 @@ class App extends React.Component {
             src: bancoPreview, 
             title: "Banco de Celulas Website", 
             id: "card2",
-            description: "Website created with plain HTML, CSS, JS and Firebase.",
+            description: "Management system created with plain HTML, CSS, JS and Firebase.",
             app: "https://bancocelulas.web.app",
             code: "https://github.com/CaioFPeres/BancoDeCelulas",
             imageHeight: 170

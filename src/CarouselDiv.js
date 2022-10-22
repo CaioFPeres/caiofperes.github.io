@@ -30,9 +30,13 @@ class CarouselDiv extends React.Component {
         carousel.scrollTo(scrolling, 0);
     }
 
+    detectDevice() {
+        return window.innerWidth > 500;
+    }
+
     render() {
         return(
-            <div className="CarouselDiv" id="carousel" onMouseMove={ event => this.handleMouseMove(event)}>
+            <div className="CarouselDiv" id="carousel" onMouseMove={ event => this.detectDevice() && this.handleMouseMove(event)}>
                 {this.props.children}
             </div>
         );
