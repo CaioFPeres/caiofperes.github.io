@@ -1,28 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.45d3c13c.css",
-    "main.js": "/static/js/main.43d04a77.js",
+    "main.css": "/static/css/main.7ee7e1ff.css",
+    "main.js": "/static/js/main.f8f690cc.js",
+    "static/media/facedetectionpreview.png": "/static/media/facedetectionpreview.51a0f093863ea58179fd.png",
     "static/media/frevospreview.png": "/static/media/frevospreview.5235e6693eabc619603d.png",
     "static/media/authExamplepreview.png": "/static/media/authExamplepreview.49628e9b1f4a4617c7f5.png",
+    "static/media/smiledetectionpreview.png": "/static/media/smiledetectionpreview.f967358610431a70c910.png",
     "static/media/languagespreview.jpg": "/static/media/languagespreview.6cd9bb75c032c891f7d6.jpg",
+    "static/media/dllinjectorpreview.png": "/static/media/dllinjectorpreview.70df911f92b8dc207dcd.png",
     "static/media/androidpreview.jpg": "/static/media/androidpreview.c9a444c2692e3fe376ba.jpg",
+    "static/media/resumepreview.png": "/static/media/resumepreview.17dae461d8403bbb343b.png",
     "static/media/metricspreview.png": "/static/media/metricspreview.6df4a32f4fff04991ff0.png",
     "static/media/fileicon.jpg": "/static/media/fileicon.59d71502535176156f40.jpg",
     "static/media/neuralnetpreview.png": "/static/media/neuralnetpreview.ca37729a3c95fb5d6cc2.png",
+    "static/media/trainerpreview.png": "/static/media/trainerpreview.a2fe4ca85b321aba48fe.png",
     "static/media/google-logo.png": "/static/media/google-logo.0199d8e79706fd721d63.png",
-    "static/media/resumepreview.png": "/static/media/resumepreview.bee766553767c361ed13.png",
     "static/media/minecraftpreview.png": "/static/media/minecraftpreview.9b1a7ae12fddb1bb3835.png",
     "static/media/bancopreview.png": "/static/media/bancopreview.e962fff8cfb6ac338c9f.png",
     "static/media/hobbies.jpg": "/static/media/hobbies.dc73df38e377d759f91d.jpg",
     "static/media/sunflower.otf": "/static/media/sunflower.80c060930d4a922a2603.otf",
+    "static/media/serverpreview.png": "/static/media/serverpreview.76dbe3485a1ca8c9fed6.png",
+    "static/media/loadbalancerpreview.png": "/static/media/loadbalancerpreview.d8b42bb5a0e172ec0dca.png",
     "static/media/serialpreview.png": "/static/media/serialpreview.becca07380892ce43ce7.png",
     "static/media/messagepreview.png": "/static/media/messagepreview.ee926aa93368b60a525c.png",
+    "static/media/wakeonlanpreview.png": "/static/media/wakeonlanpreview.a39ec09291943827d132.png",
+    "static/media/Logo_Unesp.svg": "/static/media/Logo_Unesp.9d2ca55d93a9cc11151f53dab32ccdbc.svg",
+    "static/media/BlackSamsungLogo.svg": "/static/media/BlackSamsungLogo.e663c31d808126568d9da62ea6ca260f.svg",
     "index.html": "/index.html",
-    "main.45d3c13c.css.map": "/static/css/main.45d3c13c.css.map",
-    "main.43d04a77.js.map": "/static/js/main.43d04a77.js.map"
+    "main.7ee7e1ff.css.map": "/static/css/main.7ee7e1ff.css.map",
+    "main.f8f690cc.js.map": "/static/js/main.f8f690cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.45d3c13c.css",
-    "static/js/main.43d04a77.js"
+    "static/css/main.7ee7e1ff.css",
+    "static/js/main.f8f690cc.js"
   ]
 }
