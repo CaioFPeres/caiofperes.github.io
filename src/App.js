@@ -17,7 +17,7 @@ class App extends React.Component {
       <MainBackground>
         <Title>Caio Peres' Projects</Title>
         <CarouselSlide>
-          <CardProject content={{ 
+          <CardProject content={{
             src: frevoPreview, 
             title: "Frevo's Fermentaria Website",
             id: "card1",
@@ -55,7 +55,7 @@ class App extends React.Component {
             imageHeight: 170
           }}>
           </CardProject>
-          <CardProject content={{ 
+          <CardProject content={{
             src: languagesPreview, 
             title: "Non-web Projects",
             id: "card5",

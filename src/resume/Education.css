@@ -1,0 +1,30 @@
+.Edu{
+    text-align: justify;
+    font-size: 17px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-family: Amiko;
+    width: auto;
+}
+
+.ufscar{
+    text-align: justify;
+    font-size: 16px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 39px;
+    font-family: Amiko;
+    width: auto;
+}
+
+.graduation{
+    text-align: justify;
+    font-size: 16px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    font-family: Amiko;
+    width: auto;
+}

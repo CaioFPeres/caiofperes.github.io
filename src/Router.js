@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import App from "./App";
-import Resume from "./Resume";
+import Resume from "./resume/Resume";
 import OtherProjects from "./OtherProjects";
 
 

@@ -73,7 +73,6 @@ class Resume extends React.Component {
 
                         <div className="webDev"><b>Web Development</b>
 
-
                             <div className="webSkills">
                                 <div className="html">HTML
                                     <div className="bolinhaHTML"></div>

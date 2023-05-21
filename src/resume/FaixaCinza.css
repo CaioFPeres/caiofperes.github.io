@@ -1,0 +1,9 @@
+.faixaCinza{
+    position: relative;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e2e2e2;
+    height: 220px;
+    width: auto;
+}

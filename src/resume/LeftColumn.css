@@ -1,0 +1,8 @@
+.colunaEsq{
+    position: relative;
+    display: inline-block;
+    background-color: #333333;
+    padding-right: 25px;
+    width: 175px;
+    height: auto;
+}

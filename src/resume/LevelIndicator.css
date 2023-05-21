@@ -1,0 +1,17 @@
+.Level{
+    height: 15px;
+    width: 15px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: block;
+    float: right;
+}
+
+.blankLevel{
+    height: 15px;
+    width: 15px;
+    background-color: #3333334d;
+    border-radius: 50%;
+    display: block;
+    float: right;
+}

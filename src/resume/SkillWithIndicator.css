@@ -1,0 +1,9 @@
+.SkillWithIndicator{
+    position: relative;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 270px;
+    font-family: Amiko;
+}

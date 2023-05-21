@@ -1,0 +1,7 @@
+.LinhaCinza{
+    position: relative;
+    display: inline-block;
+    background-color: #565656;
+    width: 140px;
+    height: 4px;
+}
