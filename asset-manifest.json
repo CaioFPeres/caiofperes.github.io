@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ee7e1ff.css",
-    "main.js": "/static/js/main.f8f690cc.js",
+    "main.js": "/static/js/main.cb1f5b4f.js",
     "static/media/facedetectionpreview.png": "/static/media/facedetectionpreview.51a0f093863ea58179fd.png",
     "static/media/frevospreview.png": "/static/media/frevospreview.5235e6693eabc619603d.png",
     "static/media/authExamplepreview.png": "/static/media/authExamplepreview.49628e9b1f4a4617c7f5.png",
@@ -28,10 +28,10 @@
     "static/media/BlackSamsungLogo.svg": "/static/media/BlackSamsungLogo.e663c31d808126568d9da62ea6ca260f.svg",
     "index.html": "/index.html",
     "main.7ee7e1ff.css.map": "/static/css/main.7ee7e1ff.css.map",
-    "main.f8f690cc.js.map": "/static/js/main.f8f690cc.js.map"
+    "main.cb1f5b4f.js.map": "/static/js/main.cb1f5b4f.js.map"
   },
   "entrypoints": [
     "static/css/main.7ee7e1ff.css",
-    "static/js/main.f8f690cc.js"
+    "static/js/main.cb1f5b4f.js"
   ]
 }
