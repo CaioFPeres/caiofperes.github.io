@@ -39,7 +39,7 @@ class Resume extends React.Component {
                             <LeftSection>Experience</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={428}>
+                        <SectionDiv marginTop={462}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Education</LeftSection>
                         </SectionDiv>
@@ -79,16 +79,16 @@ class Resume extends React.Component {
                             <LinhaBranca></LinhaBranca>
                             <Description>
                                 <SamsungLogo></SamsungLogo>
-                                Working at Samsung Research and Development Institute provided opportunities to experiment the different stages of the development cycle for cutting-edge technologies, from conceptualization, high level proof-of-concept to final implementation in very interesting and innovative projects that would produce software in areas such as Biometrics Research, Windows Development, Android Development, Embedded Devices Development, UEFI Development and more.
-                                One of the highlights of this internship was the participation in a complete Machine Learning Pipeline, which involved data collection, data pre-processing, feature extraction, model training and analysis, using tools such as Pandas, scikit-learn, numpy, seaborn, dtw-python, and many others. This experience not only contributed in expanding my knowledge of techniques in this field, but also allowed me to assist in the elaboration of an academic paper intended for submission to an international conference, as well as the development of a patent.
+                                Working at Samsung Research and Development Institute provided opportunities to experiment the different stages of the development cycle for cutting-edge technologies, from conceptualization, high level proof-of-concept to final implementation in very interesting and innovative projects that would produce software in areas such as Biometrics Research, Windows Development, Android Development, Embedded Devices Development, UEFI Development and more. <br></br>
+                                One of the highlights of this internship was the participation in a complete Machine Learning Pipeline in the field of biometrics, which involved data collection, data pre-processing, feature extraction, model training and analysis, using tools such as Pandas, scikit-learn, numpy, seaborn, dtw-python, and many others. This experience not only contributed in expanding my knowledge of techniques in this field, but also allowed me to assist in the elaboration of an academic paper intended for submission to an international conference, as well as the development of a patent.
 
                                 <UNESPLogo></UNESPLogo>
-                                Developed a complete management web system using Firebase for UNESP University, which aimed to organize human and animal cells in nitrogen tanks. The system was designed to attend researchers needs under a multiple option search engine, while being mobile and user friendly. The introduction of this digital solution highly improved efficiency and organization compared to the previous non-digital organization.
+                                Developed a complete management web system using Firebase for UNESP University's Cell Research Department, which aimed to efficiently organize human and animal cells in nitrogen tanks. Employed HTML, CSS, and JavaScript, along with essential Firebase services including Firebase Realtime Database, Firebase Authentication, Firebase Storage and Firebase Hosting. The system was designed to attend researchers needs under a multiple option search engine, while being mobile and user friendly. The introduction of this digital solution highly improved efficiency and organization compared to the previous non-digital approach.
 
                                 <PersonalExperience></PersonalExperience>
-                                Developed a website to promote and manage own brewing hobby project, along with an Android Application for temperature setup and an ESP8266 device to measure and control a refrigerator temperature. The measured temperature was inserted into Firebase Database, then used this data to plot a real-time chart for improved visualization.
+                                Developed a website to promote and manage own brewing hobby project, along with an Android Application for temperature setup and an ESP8266 device to measure and control a refrigerator temperature. The website was made using HTML, CSS and Javascript and the measured temperature was inserted into Firebase Database, then used this data to plot a real-time chart for improved visualization.
                                 <br></br>
-                                Developed several Web (HTML, CSS, Javascript, React), Machine Learning, Android, Java, C/C++ and C# applications.
+                                Developed several Web (HTML, CSS, Javascript, React), Machine Learning, Java, Android, Windows, C/C++ and C# applications.
 
                             </Description>
                             <LinhaBranca></LinhaBranca>
@@ -101,15 +101,15 @@ class Resume extends React.Component {
                                 </BriefNote>
 
                                 <Skill>
+                                    <b>General Software Development:</b> Windows(Win32, UWP, .NET), Android(Java), Java, Python, UEFI(EDKII), C, C++, C#
+                                </Skill>
+
+                                <Skill>
                                     <b>Web Development:</b> HTML, CSS, Javascript, Typescript, React, NodeJS
                                 </Skill>
 
                                 <Skill>
-                                    <b>General Software Development:</b> Windows(Win32, UWP, .NET), Android(Java), Java, Python, C#, C, C++
-                                </Skill>
-
-                                <Skill>
-                                    <b>Machine Learning:</b> Pandas, Scikit-learn, Numpy, time-series data manipulation, dtw-python, Dlib, OpenCV(Python/C++)
+                                    <b>Data Science & Machine Learning:</b> Pandas, Scikit-learn, Numpy, dtw-python, Dlib(Python/C++), OpenCV(Python/C++)
                                 </Skill>
 
                                 <Skill>
@@ -117,7 +117,7 @@ class Resume extends React.Component {
                                 </Skill>
 
                                 <Skill>
-                                    <b>Systems:</b> Windows Systems, Linux Systems, Docker
+                                    <b>Operating Systems:</b> Windows Systems, Linux Systems
                                 </Skill>
 
                                 <Skill>
@@ -129,7 +129,7 @@ class Resume extends React.Component {
                                 </Skill>
 
                                 <Skill>
-                                    <b>Miscellaneous Tools:</b> Git, Visual Studio, Visual Studio Code, Virtual Machines(VirtualBox and others)
+                                    <b>Miscellaneous Tools:</b> Git, Docker, Visual Studio, Visual Studio Code, Virtual Machines(VirtualBox and others)
                                 </Skill>
 
                                 <Skill>
@@ -211,7 +211,7 @@ class Resume extends React.Component {
                             <LinhaBranca></LinhaBranca>
                             <Hobbies></Hobbies>
                             <LinhaBranca></LinhaBranca>
-                            <Description fontSize="20px" marginBottom="35px">
+                            <Description fontSize="20px" marginBottom="35.66px">
                                 TOEFL ITP B2
                             </Description>
 
