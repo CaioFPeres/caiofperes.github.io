@@ -5,10 +5,10 @@ class LeftSection extends React.Component {
     style = {
         position: "relative",
         display: "block",
-        marginRight: "6px",
+        marginRight: this.props.marginRight || "6px",
         marginTop: "4px",
-        marginBottom: this.props.marginBottom || "34px",
-        fontSize: "19px",
+        marginBottom: this.props.marginBottom,
+        fontSize: this.props.fontSize || "19px",
         fontFamily: "Amiko",
         color: "white",
     }

@@ -9,11 +9,11 @@ class PersonalInfo extends React.Component {
 
                 <div className="nome">Caio Peres</div>
 
-                <div className="developer">Software Engineer</div>
+                <div className="developer">Software Developer & Researcher</div>
 
                 <div className="info">
 
-                    <div className="location"> <b>Location:</b> Botucatu, São Paulo, Brazil</div>
+                    <div className="location"> <b>Localization:</b> Campinas, São Paulo, Brazil</div>
 
                     <div className="phone" style={{ marginBottom: "2px"}}><b>Phone Number: </b>5514998708771</div>
 

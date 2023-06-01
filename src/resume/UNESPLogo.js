@@ -7,13 +7,13 @@ class UNESPLogo extends React.Component {
     render() {
         return(
             <div>
-                <img class="UNESPLogo" src = {logo} alt="samsung"/>
-                <div class="UNESPLocationAndDate">
+                <img className="UNESPLogo" src = {logo} alt="samsung"/>
+                <div className="UNESPLocationAndDate">
                     Botucatu, SP
                     <br></br>
                     January 2021 - December 2021 
                 </div>
-                <div class="UNESPDepartment"><b>Software Engineer Intern</b></div>
+                <div className="UNESPDepartment"><b>Software Engineer Intern</b></div>
             </div>
         );
     };

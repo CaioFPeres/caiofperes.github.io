@@ -5,7 +5,7 @@ class PersonalExperience extends React.Component {
 
     render() {
         return(
-            <div class="PersonalExperience"><b>Personal Projects</b></div>
+            <div className="PersonalExperience"><b>Personal Projects</b></div>
         );
     };
 }

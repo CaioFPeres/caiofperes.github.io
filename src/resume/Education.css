@@ -1,11 +1,11 @@
 .Edu{
+    display: inline;
     text-align: justify;
     font-size: 17px;
     position: relative;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 0px;
     font-family: Amiko;
-    width: auto;
 }
 
 .ufscar{
@@ -13,18 +13,17 @@
     font-size: 16px;
     position: relative;
     margin-top: 10px;
+    margin-bottom: 4px;
     margin-left: 39px;
     font-family: Amiko;
-    width: auto;
 }
 
 .graduation{
-    text-align: justify;
+    display: inline;
     font-size: 16px;
     position: relative;
     margin-top: 15px;
-    margin-left: 40px;
+    margin-left: 220px;
     margin-bottom: 15px;
     font-family: Amiko;
-    width: auto;
 }

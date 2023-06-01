@@ -18,7 +18,6 @@ import UNESPLogo from './UNESPLogo';
 import PersonalExperience from './PersonalExperience';
 import Skill from "./Skill"
 import BriefNote from "./BriefNote"
-import Bullet from "./Bullet"
 
 class Resume extends React.Component {
     
@@ -32,32 +31,32 @@ class Resume extends React.Component {
 
                         <SectionDiv marginTop={228}>
                             <LinhaCinza></LinhaCinza>
-                            <LeftSection>Profile</LeftSection>
+                            <LeftSection>Perfil</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={124}>
+                        <SectionDiv marginTop={131}>
                             <LinhaCinza></LinhaCinza>
-                            <LeftSection>Experience</LeftSection>
+                            <LeftSection>Experiência</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={541}>
+                        <SectionDiv marginTop={496}>
                             <LinhaCinza></LinhaCinza>
-                            <LeftSection>Education</LeftSection>
+                            <LeftSection>Educação</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={12}>
+                        <SectionDiv marginTop={64}>
                             <LinhaCinza></LinhaCinza>
-                            <LeftSection>Technical Skills</LeftSection>
+                            <LeftSection marginRight="2px" fontSize="17px">Habilidades Técnicas</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={195}>
+                        <SectionDiv marginTop={197}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Hobbies</LeftSection>
                         </SectionDiv>
 
                         <SectionDiv marginTop={70}>
                             <LinhaCinza></LinhaCinza>
-                            <LeftSection marginBottom = "60px">Achievements</LeftSection>
+                            <LeftSection marginBottom = "60px">Conquistas</LeftSection>
                         </SectionDiv>
 
                     </LeftColumn>
@@ -72,52 +71,25 @@ class Resume extends React.Component {
 
                             <LinhaBranca></LinhaBranca>
                             <Description>
-                                <Bullet ul={true}>
-                                    <Bullet ul={false}>
-                                        Eager to bring value to the technology industry through hard work and commitment to quality. Motivated individual with strong work ethic and ability to work independently.<br></br>
-                                    </Bullet>
-                                    <Bullet ul={false}>
-                                        Possess diverse experience in various areas of software development. With a strong passion and curiosity for technology, truly enjoys executing personal projects that provide opportunities to learn and grow, even in the face of challenges. Exploring and understanding the process involved in both higher-level abstractions and lower-level implementations is highly rewarding, and personal projects serve as an exceptional means to accomplish this goal.<br></br>
-                                    </Bullet>
-                                    <Bullet ul={false}>
-                                        Alongside technical expertise, possesses strong organizational and team collaboration skills, as well as strong communication and writing skills, enabling the effective communication of complex ideas to both technical and non-technical individuals.<br></br>
-                                    </Bullet>
-                                </Bullet>
+                            Interessado em contribuir com a indústria de tecnologia por meio do trabalho e comprometimento com a qualidade. Indivíduo motivado, com forte ética de trabalho e capacidade de trabalhar de forma independente. 
+                            Possui experiência diversificada em várias áreas de desenvolvimento de software. Com um grande interesse e curiosidade por tecnologia, se envolve na execução de projetos pessoais que oferecem oportunidades de aprendizado e crescimento, mesmo diante de desafios. 
+                            Explorar e entender o processo envolvido em abstrações de alto nível e implementações de baixo nível é altamente gratificante, e projetos pessoais servem como um meio excepcional para alcançar esse objetivo. 
+                            Além da expertise técnica, possui fortes habilidades de organização e colaboração em equipe, bem como habilidades sólidas de comunicação e escrita, possibilitando a comunicação efetiva de ideias complexas tanto para indivíduos técnicos quanto não técnicos. 
+                            Seja colaborando com equipes diversas ou criando documentação técnica ou acadêmica, demonstra consistentemente a capacidade de articular conceitos com clareza e precisão.
                             </Description>
                             <LinhaBranca></LinhaBranca>
                             <Description>
                                 <SamsungLogo></SamsungLogo>
-                                <Bullet ul={true}>
-                                    <Bullet ul={false}>
-                                        Working at Samsung Research and Development Institute provided opportunities to experiment the different stages of the development cycle for cutting-edge technologies, from conceptualization, high level proof-of-concept to final implementation in very interesting and innovative projects that would produce software in areas such as <b>biometrics</b> research, <b>Windows</b> development, <b>Android</b> development, <b>embedded devices</b> development, <b>UEFI</b> development and more. <br></br>
-                                    </Bullet>
-                                    <Bullet ul={false}>
-                                        Participated in a <b>research project</b> in the field of biometrics. This project involved the entire <b>machine learning pipeline</b>, which included data collection, data pre-processing, feature extraction, model training and analysis, using tools such as Pandas, Scikit-learn, Numpy, Seaborn, dtw-python, and many others. This experience not only contributed in expanding my knowledge of techniques in this field, but also allowed me to assist in the elaboration of an <b>academic paper</b> intended for submission to an international conference, as well as the development of a <b>patent</b>. <br></br>
-                                    </Bullet>
-                                </Bullet>
+                                Trabalhar no Instituto de Pesquisa e Desenvolvimento da Samsung proporcionou oportunidades de experimentar as diferentes etapas do ciclo de desenvolvimento para tecnologias de ponta, desde a conceitualização e prova de conceito de alto nível, até a implementação final em projetos muito interessantes e inovadores que produziriam software em áreas como Pesquisa em Biometria, desenvolvimento Windows, desenvolvimento Android, desenvolvimento de dispositivos embarcados, desenvolvimento UEFI e muito mais. <br></br>
+                                Um dos destaques deste estágio foi a participação em um projeto de pesquisa no campo da biometria. Esse projeto envolveu o pipeline completo de aprendizado de máquina, que inclui coleta de dados, pré-processamento de dados, extração de features, treinamento e análise de modelos, utilizando ferramentas como pandas, scikit-learn, numpy, seaborn, dtw-python e muitas outras. Essa experiência não apenas contribuiu para expandir meu conhecimento de técnicas nessa área, mas também me permitiu auxiliar na elaboração de um artigo acadêmico destinado à submissão a uma conferência internacional, bem como no desenvolvimento de uma patente.
 
                                 <UNESPLogo></UNESPLogo>
-                                <Bullet ul={true}>
-                                    <Bullet ul={false}>
-                                        Developed a complete management <b>web system</b> using <b>Firebase</b> for UNESP University's Cell Research Department, in order to efficiently organize human and animal cells in nitrogen tanks. The introduction of this digital solution <b>highly improved efficiency and organization</b> compared to the previous non-digital approach.<br></br>
-                                    </Bullet>
-                                    <Bullet ul={false}>
-                                        Employed HTML, CSS, and JavaScript, along with essential Firebase services including Firebase Realtime Database, Firebase Authentication, Firebase Storage and Firebase Hosting. The system was designed to attend researchers needs under a multiple option search engine, while being mobile and user friendly. <br></br>
-                                    </Bullet>
-                                </Bullet>
-                                    
+                                Desenvolvi um sistema de gerenciamento web completo utilizando o Firebase para o Departamento de Pesquisa de Células da Universidade UNESP, que tinha como objetivo organizar de forma eficiente células humanas e animais em tanques de nitrogênio. Utilizei HTML, CSS e JavaScript, juntamente com os serviços essenciais do Firebase, incluindo Firebase Realtime Database, Firebase Authentication, Firebase Storage e Firebase Hosting. O sistema foi projetado para atender às necessidades dos pesquisadores por meio de um mecanismo de busca com várias opções, além de ser compatível com dispositivos móveis e amigável ao usuário. A introdução dessa solução digital melhorou significativamente a eficiência e a organização em comparação com a abordagem não digital anterior.
+
                                 <PersonalExperience></PersonalExperience>
-                                <Bullet ul={true}>
-                                    <Bullet ul={false}>
-                                        Developed a <b>website</b> to promote and manage own brewing hobby project, along with an <b>Android application</b> for temperature setup and an <b>ESP8266 device</b> to measure and control a refrigerator temperature. <br></br>
-                                    </Bullet>
-                                    <Bullet ul={false}>
-                                        The website was made using HTML, CSS and Javascript and the measured temperature was inserted into Firebase Database, then used this data to plot a <b>real-time chart</b> for improved visualization and analysis. <br></br>
-                                    </Bullet>
-                                    <Bullet ul={false}>
-                                        Developed several Web (HTML, CSS, Javascript, React), Machine Learning, Java, Android, Windows, C/C++ and C# applications.<br></br>
-                                    </Bullet>
-                                </Bullet>
+                                Desenvolvi um website para promover e gerenciar meu próprio projeto de hobby de fabricação de hidromel, juntamente com um aplicativo Android para configuração de temperatura e um dispositivo ESP8266 para medir e controlar a temperatura de uma geladeira. O website foi criado utilizando HTML, CSS e JavaScript, e a temperatura medida foi inserida no Firebase Database, utilizando esses dados para plotar um gráfico em tempo real para uma melhor visualização.
+                                <br></br>
+                                Desenvolvi várias aplicações Web(HTML, CSS, Javascript, React), Machine Learning, Java, Android, Windows, C/C++ e C#.
 
                             </Description>
                             <LinhaBranca></LinhaBranca>
@@ -126,43 +98,43 @@ class Resume extends React.Component {
 
                             <Description>
                                 <BriefNote>
-                                    Highly proficient in all the presented skills:
+                                    Altamente proficiente em todas as habilidades apresentadas:
                                 </BriefNote>
 
                                 <Skill>
-                                    <b>General Software Development:</b> Windows(Win32, UWP, .NET), Android(Java), Java, Python, UEFI(EDKII), C, C++, C#
+                                    <b>Desenvolvimento de Software Geral:</b> Windows(Win32, UWP, .NET), Android(Java), Java, Python, UEFI(EDKII), C, C++, C#
                                 </Skill>
 
                                 <Skill>
-                                    <b>Web Development:</b> HTML, CSS, Javascript, Typescript, React, NodeJS
+                                    <b>Desenvolvimento Web:</b> HTML, CSS, Javascript, Typescript, React, NodeJS
                                 </Skill>
 
                                 <Skill>
-                                    <b>Data Science & Machine Learning:</b> Pandas, Scikit-learn, Numpy, dtw-python, Dlib(Python/C++), OpenCV(Python/C++)
+                                    <b>Ciencia de Dados & Aprendizado de Máquina:</b> Pandas, Scikit-learn, Numpy, dtw-python, Dlib(Python/C++), OpenCV(Python/C++)
                                 </Skill>
 
                                 <Skill>
-                                    <b>Databases:</b> MySQL, Postgres, Firebase Realtime Database, MongoDB
+                                    <b>Bancos de Dados:</b> MySQL, Postgres, Firebase Realtime Database, MongoDB
                                 </Skill>
 
                                 <Skill>
-                                    <b>Operating Systems:</b> Windows Systems, Linux Systems
+                                    <b>Sistemas Operacionais:</b> Windows Systems, Linux Systems
                                 </Skill>
 
                                 <Skill>
-                                    <b>IT Methodologies:</b> Scrum, Kanban
+                                    <b>Methodologias de Desenvolvimento ágil:</b> Scrum, Kanban
                                 </Skill>
 
                                 <Skill>
-                                    <b>Digital Eletronics:</b> Arduino
+                                    <b>Eletronica Digital:</b> Arduino
                                 </Skill>
 
                                 <Skill>
-                                    <b>Miscellaneous Tools:</b> Git, Docker, Virtual Machines(VirtualBox and others)
+                                    <b>Ferramentas diversas:</b> Git, Docker, Visual Studio, Visual Studio Code, Virtual Machines(VirtualBox and others)
                                 </Skill>
 
                                 <Skill>
-                                    <b>Fluent Languages:</b> Portuguese, English
+                                    <b>Linguas fluentes:</b> Portuguese, English
                                 </Skill>
 
                             </Description>

@@ -1,0 +1,8 @@
+.BulletUl{
+    margin-left: -28px;
+}
+
+.BulletDiv{
+    display: inline;
+    position: relative;
+}

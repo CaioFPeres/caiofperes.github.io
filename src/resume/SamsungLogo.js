@@ -7,13 +7,13 @@ class SamsungLogo extends React.Component {
     render() {
         return(
             <div>
-                <img class="SamsungLogo" src = {logo} alt="samsung"/>
-                <div class="SamsungLocationAndDate">
+                <img className="SamsungLogo" src = {logo} alt="samsung"/>
+                <div className="SamsungLocationAndDate">
                     Campinas, SP
                     <br></br>
                     March 2022 - September 2023 
                 </div>
-                <div class="SamsungDepartment"><b>Security Researcher and Developer Intern</b></div>
+                <div className="SamsungDepartment"><b>Security Researcher and Developer Intern</b></div>
             </div>
             
         );
