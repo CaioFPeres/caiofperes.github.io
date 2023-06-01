@@ -3,27 +3,22 @@
     text-align: justify;
     font-size: 17px;
     position: relative;
-    margin-top: 10px;
-    margin-left: 0px;
     font-family: Amiko;
 }
 
 .ufscar{
+    display: block;
     text-align: justify;
     font-size: 16px;
     position: relative;
-    margin-top: 10px;
-    margin-bottom: 4px;
-    margin-left: 39px;
+    margin-top: 5px;
     font-family: Amiko;
 }
 
 .graduation{
     display: inline;
+    float: right;
     font-size: 16px;
     position: relative;
-    margin-top: 15px;
-    margin-left: 220px;
-    margin-bottom: 15px;
     font-family: Amiko;
 }
