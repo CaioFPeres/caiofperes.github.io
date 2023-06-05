@@ -1,7 +1,7 @@
 .Edu{
     display: inline;
     text-align: justify;
-    font-size: 17px;
+    font-size: 18px;
     position: relative;
     font-family: Amiko;
 }
@@ -9,7 +9,7 @@
 .ufscar{
     display: block;
     text-align: justify;
-    font-size: 16px;
+    font-size: 17px;
     position: relative;
     margin-top: 5px;
     font-family: Amiko;
@@ -19,6 +19,8 @@
     display: inline;
     float: right;
     font-size: 16px;
+    margin-top: 2px;
+    text-align: right;
     position: relative;
     font-family: Amiko;
 }

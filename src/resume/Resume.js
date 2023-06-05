@@ -45,12 +45,12 @@ class Resume extends React.Component {
                             <LeftSection>Education</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={20}>
+                        <SectionDiv marginTop={24}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Technical Skills</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={197}>
+                        <SectionDiv marginTop={196}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Hobbies</LeftSection>
                         </SectionDiv>
@@ -92,27 +92,27 @@ class Resume extends React.Component {
                                         Working at Samsung Research and Development Institute provided opportunities to experiment the different stages of the development cycle for cutting-edge technologies, from conceptualization, high level proof-of-concept to final implementation in very interesting and innovative projects that would produce software in areas such as <b>biometrics</b> research, <b>Windows</b> development, <b>Android</b> development, <b>embedded devices</b> development, <b>UEFI</b> development and more. <br></br>
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Engaged in an extensive <b>research project</b> in the field of biometrics. This project involved the entire <b>machine learning pipeline</b>, which included data collection, data pre-processing, feature extraction, model training and analysis, using tools such as Pandas, Scikit-learn, Numpy, Seaborn, dtw-python, and many others. This experience not only contributed in expanding my knowledge of techniques in this field, but also allowed me to assist in the elaboration of an <b>academic paper</b> intended for submission to an international conference, as well as the development of a <b>patent</b>. <br></br>
+                                        Engaged in an extensive <b>research project</b> in the field of <b>biometrics</b>. This project involved the entire <b>machine learning pipeline</b>, which included data collection, data pre-processing, feature extraction, model training and analysis, using tools such as Pandas, Scikit-learn, Numpy, Seaborn, dtw-python, and many others. This experience not only contributed in expanding my knowledge of techniques in this field, but also allowed me to assist in the elaboration of an <b>academic paper</b> intended for submission to an international conference, as well as the development of a <b>patent</b>. <br></br>
                                     </Bullet>
                                 </Bullet>
 
                                 <UNESPLogo></UNESPLogo>
                                 <Bullet ul={true}>
                                     <Bullet ul={false}>
-                                        Developed a complete management <b>web system</b> using <b>Firebase</b> for UNESP University's Cell Research Department, in order to efficiently organize human and animal cells in nitrogen tanks. The introduction of this digital solution <b>highly improved efficiency and organization</b> compared to the previous non-digital approach.<br></br>
+                                        Developed a complete management <b>web system</b> for UNESP University's Cell Research Department, in order to efficiently organize human and animal cells in nitrogen tanks. The introduction of this digital solution <b>highly improved efficiency and organization</b> compared to the previous non-digital approach.<br></br>
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Employed HTML, CSS, and JavaScript, along with essential Firebase services including Firebase Realtime Database, Firebase Authentication, Firebase Storage and Firebase Hosting. The system was designed to attend researchers needs under a multiple option search engine, while being mobile and user friendly. <br></br>
+                                        Employed <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, along with essential <b>Firebase services</b> including Firebase Realtime Database, Firebase Authentication, Firebase Storage and Firebase Hosting. The system was designed to attend researchers needs under a multiple option search engine, while being mobile and user friendly. <br></br>
                                     </Bullet>
                                 </Bullet>
                                     
                                 <PersonalExperience></PersonalExperience>
                                 <Bullet ul={true}>
                                     <Bullet ul={false}>
-                                        Developed a <b>website</b> to promote and manage own brewing hobby project, along with an <b>Android application</b> for temperature setup and an <b>ESP8266 device</b> to measure and control a refrigerator temperature. <br></br>
+                                        Developed a <b>website</b> to promote and manage own brewing hobby project. Developed an <b>Android application</b> for temperature setup, and implemented an <b>ESP8266 device</b> to accurately measure and control refrigerator temperature.<br></br>
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        The website was made using HTML, CSS and Javascript and the measured temperature was inserted into Firebase Database, then used this data to plot a <b>real-time chart</b> for improved visualization and analysis. <br></br>
+                                        The website was made using HTML, CSS and Javascript. The measured temperatures were inserted into Firebase Realtime Database, then used this data to plot a <b>real-time chart</b> for improved visualization and analysis. <br></br>
                                     </Bullet>
                                     <Bullet ul={false}>
                                         Developed several Web (HTML, CSS, Javascript, React), Machine Learning, Java, Android, Windows, C/C++ and C# applications.<br></br>
