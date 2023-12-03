@@ -92,7 +92,7 @@ class Resume extends React.Component {
                                         Working at Samsung Research and Development Institute provided opportunities to experiment the different stages of the development cycle for cutting-edge technologies, from conceptualization, high level proof-of-concept to final implementation in very interesting and innovative projects that would produce software in areas such as <b>biometrics</b> research, <b>Windows</b> development, <b>Android</b> development, <b>embedded devices</b> development, <b>UEFI</b> development and more. <br></br>
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Engaged in an extensive <b>research project</b> in the field of <b>biometrics</b>. This project involved a complete <b>machine learning pipeline</b>, which included data collection, data pre-processing, feature extraction, model training and analysis, using tools such as Pandas, Scikit-learn, Numpy, Seaborn, and many others. The project also included the conversion of the inference pipeline to C++ for the final deployment, using <b>ONNX Runtime</b>. This experience not only contributed in expanding my knowledge of techniques in this field, but also allowed me to assist in the elaboration of an <b>academic paper</b> intended for submission to an international conference, as well as the development of a <b>patent</b>. <br></br>
+                                        Engaged in an extensive <b>research project</b> in the field of <b>biometrics</b>. This project involved a complete <b>machine learning pipeline</b>, which included data collection, data pre-processing, feature extraction, model training and analysis, using tools such as Pandas, Pytorch, Scikit-learn, Numpy, Seaborn, and many others. The project also included the conversion of the inference pipeline to C++ for the final deployment, using <b>ONNX Runtime</b>. This experience not only contributed in expanding my knowledge of techniques in this field, but also allowed me to assist in the elaboration of an <b>academic paper</b> intended for submission to an international conference, as well as the development of a <b>patent</b>. <br></br>
                                     </Bullet>
                                 </Bullet>
 
@@ -140,7 +140,7 @@ class Resume extends React.Component {
                                 </Skill>
 
                                 <Skill>
-                                    <b>Data Science & Machine Learning:</b> Pandas, Scikit-learn, Numpy, Dlib(Python/C++), OpenCV(Python/C++), ONNX
+                                    <b>Data Science & Machine Learning:</b> Pandas, Scikit-learn, Numpy, Pytorch, Dlib(Python/C++), OpenCV(Python/C++), ONNX
                                 </Skill>
 
                                 <Skill>
