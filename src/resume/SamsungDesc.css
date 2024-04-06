@@ -1,0 +1,13 @@
+.SamsungDepartment{
+    font-size: 18px;
+    display: block;
+    margin-top: 8px;
+}
+
+.SamsungLocationAndDate{
+    font-size: 18px;
+    display: inline;
+    float: right;
+    text-align: right;
+    margin-top: -12px;
+}

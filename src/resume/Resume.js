@@ -14,6 +14,8 @@ import LinhaCinza from './LinhaCinza';
 import LeftSection from './LeftSection';
 import SectionDiv from './SectionDiv';
 import SamsungLogo from './SamsungLogo';
+import SamsungInternship from './SamsungInternship';
+import SamsungRegular from './SamsungRegular';
 import UNESPLogo from './UNESPLogo';
 import PersonalExperience from './PersonalExperience';
 import Skill from "./Skill"
@@ -24,7 +26,7 @@ class Resume extends React.Component {
     
     render() {
         return(
-            <Background>
+            //<Background>
 
                 <FolhaFrente>
 
@@ -35,12 +37,12 @@ class Resume extends React.Component {
                             <LeftSection>Profile</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={124}>
+                        <SectionDiv marginTop={126}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Experience</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={559}>
+                        <SectionDiv marginTop={768}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Education</LeftSection>
                         </SectionDiv>
@@ -84,15 +86,31 @@ class Resume extends React.Component {
                                     </Bullet>
                                 </Bullet>
                             </Description>
+
                             <LinhaBranca></LinhaBranca>
+
                             <Description>
+
                                 <SamsungLogo></SamsungLogo>
+                                <SamsungRegular></SamsungRegular>
+
+                                <Bullet ul={true}>
+                                    <Bullet ul={false}>
+                                        Responsible for conducting research to <b>explore vulnerabilities</b> in electronic devices using advanced <b>deep learning</b> techniques with <b>PyTorch</b>. Conducted <b>attacks</b> to strengthen <b>defenses</b> and gain insights into the issue. Continuously optimized preprocessing techniques and model training methodologies to enhance speed and achieve superior results, guided by the knowledge acquired from intensive research.<br></br>
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Implemented a one-dimensional <b>CNN architecture</b> for signal feature extraction, along with preprocessing techniques including <b>parallel processing</b>, signal drift detection, signal cropping, and signal enhancement through augmentation methods such as shifting and noise injection, both online and offline. Additionally, employed strategies like down-sampling and the <b>One vs One</b> model approach to further refine the attack accuracy. <br></br>
+                                    </Bullet>
+                                </Bullet>
+
+                                <SamsungInternship></SamsungInternship>
+
                                 <Bullet ul={true}>
                                     <Bullet ul={false}>
                                         Working at Samsung Research and Development Institute provided opportunities to experiment the different stages of the development cycle for cutting-edge technologies, from conceptualization, high level proof-of-concept to final implementation in very interesting and innovative projects that would produce software in areas such as <b>biometrics</b> research, <b>Windows</b> development, <b>Android</b> development, <b>embedded devices</b> development, <b>UEFI</b> development and more. <br></br>
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Engaged in an extensive <b>research project</b> in the field of <b>biometrics</b>. This project involved a complete <b>machine learning pipeline</b>, which included data collection, data pre-processing, feature extraction, model training and analysis, using tools such as Pandas, Pytorch, Scikit-learn, Numpy, Seaborn, and many others. The project also included the conversion of the inference pipeline to C++ for the final deployment, using <b>ONNX Runtime</b>. This experience not only contributed in expanding my knowledge of techniques in this field, but also allowed me to assist in the elaboration of an <b>academic paper</b> intended for submission to an international conference, as well as the development of a <b>patent</b>. <br></br>
+                                        Engaged in an extensive <b>research project</b> in the field of <b>biometrics</b>. This project involved a complete <b>machine learning pipeline</b>, which included the implementation of a CNN architecture, data collection, data preprocessing, feature extraction, model training and analysis, using tools such as Pandas, Pytorch, Scikit-learn, Numpy, Seaborn, and many others. The project also included the conversion of the inference pipeline to C++ for the final deployment, using <b>ONNX Runtime</b>. This experience not only contributed in expanding my knowledge of techniques in this field, but also allowed me to assist in the elaboration of an <b>academic paper</b> intended for submission to an international conference, as well as the development of a <b>patent</b>. <br></br>
                                     </Bullet>
                                 </Bullet>
 
@@ -249,7 +267,7 @@ class Resume extends React.Component {
                         </InternBackground>
                     </BlockDiv>
                 </FolhaFrente>
-            </Background>
+            //</Background>
         );
     };
 }
