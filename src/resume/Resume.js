@@ -26,7 +26,7 @@ class Resume extends React.Component {
     
     render() {
         return(
-            //<Background>
+            <Background>
 
                 <FolhaFrente>
 
@@ -267,7 +267,7 @@ class Resume extends React.Component {
                         </InternBackground>
                     </BlockDiv>
                 </FolhaFrente>
-            //</Background>
+            </Background>
         );
     };
 }
