@@ -99,7 +99,10 @@ class Resume extends React.Component {
                                         Responsible for conducting research to <b>explore vulnerabilities</b> in electronic devices using advanced <b>deep learning</b> techniques with <b>PyTorch</b>. Conducted <b>attacks</b> to strengthen <b>defenses</b> and gain insights into the issue. Continuously optimized preprocessing techniques and model training methodologies to enhance speed and achieve superior results, guided by the knowledge acquired from intensive research.<br></br>
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Implemented a one-dimensional <b>CNN architecture</b> for signal feature extraction, along with preprocessing techniques including <b>parallel processing</b>, signal drift detection, signal cropping, and signal enhancement through augmentation methods such as shifting and noise injection, both online and offline. Additionally, employed strategies like down-sampling and the <b>One vs One</b> model approach to further refine the attack accuracy. <br></br>
+                                        Implemented a one-dimensional <b>CNN architecture</b> for signal feature extraction, along with preprocessing techniques including signal drift detection, signal cropping, and signal enhancement through augmentation methods such as shifting and noise injection, both online and offline. Employed strategies like down-sampling and the <b>One vs One</b> model approach to further refine the attack accuracy.
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Decreased sample preprocessing time by <b>12x</b>, by implementing <b>parallel processing</b> techniques. <br></br>
                                     </Bullet>
                                 </Bullet>
 
