@@ -4,6 +4,21 @@
     margin-bottom: 16px;
 }
 
+
+/* Custom bullet
+li {
+    list-style: none;
+    font-size: 15px;
+}
+
+li:before {
+    content:"·";
+    font-size: 70px;
+    vertical-align:middle;
+    line-height:10px;
+}
+*/
+
 .BulletDiv{
     display: inline;
     position: relative;

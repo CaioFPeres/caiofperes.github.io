@@ -42,22 +42,24 @@ class Resume extends React.Component {
                             <LeftSection>Experience</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={768}>
+                        <SectionDiv marginTop={852}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Education</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={23}>
+                        <SectionDiv marginTop={24}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Technical Skills</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={196}>
+                        {/*
+                        <SectionDiv marginTop={213}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Hobbies</LeftSection>
                         </SectionDiv>
+                        */}
 
-                        <SectionDiv marginTop={70}>
+                        <SectionDiv marginTop={212}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection marginBottom = "60px">Achievements</LeftSection>
                         </SectionDiv>
@@ -96,13 +98,20 @@ class Resume extends React.Component {
 
                                 <Bullet ul={true}>
                                     <Bullet ul={false}>
-                                        Responsible for conducting research to <b>explore vulnerabilities</b> in electronic devices using advanced <b>deep learning</b> techniques with <b>PyTorch</b>. Conducted <b>attacks</b> to strengthen <b>defenses</b> and gain insights into the issue. Continuously optimized preprocessing techniques and model training methodologies to enhance speed and achieve superior results, guided by the knowledge acquired from intensive research.<br></br>
+                                        Responsible for conducting research to <b>explore vulnerabilities</b> in electronic devices using advanced <b>deep learning</b> techniques with <b>PyTorch</b>. Conducted <b>attacks</b> to strengthen <b>defenses</b> and gain insights into the issue. Continuously optimized preprocessing techniques and model training methodologies to enhance speed and achieve superior results{/*, guided by the knowledge acquired from intensive research */}.<br></br>
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Implemented a one-dimensional <b>CNN architecture</b> for signal feature extraction, along with preprocessing techniques including signal drift detection, signal cropping, and signal enhancement through augmentation methods such as shifting and noise injection, both online and offline. Employed strategies like down-sampling and the <b>One vs One</b> model approach to further refine the attack accuracy.
+                                        Implemented a one-dimensional <b>CNN architecture</b> for signal feature extraction, along with preprocessing techniques including signal drift detection, signal cropping, signal filtering, and signal enhancement through augmentation methods such as shifting and noise injection, both online and offline. Employed strategies like down-sampling and the <b>One vs One</b> model approach to further refine the attack accuracy.
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Decreased sample preprocessing time by <b>12x</b>, by implementing <b>parallel processing</b> techniques. <br></br>
+                                        Decreased sample preprocessing time by <b>17x</b>, through the implementation of <b>parallel processing</b> techniques in both <b>CPU</b> and <b>GPU</b>. <br></br>
+                                        {/*Decreased sample preprocessing time by <b>12x</b>, through the implementation of <b>GPGPU parallel processing</b> techniques. Implemented <b>CUDA kernels</b> for efficient signal cropping, noise injection, and min/max <b>reductions</b>. Filtered frequencies using <b>cuFFT</b> for a CUDA fast Fourier transform implementation, applied median filter using <b>NPP</b> library and implemented moving averages through <b>convolutions</b>.*/}
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Led the development of a <b>Android system-level security service</b> intended to be on <b>Samsung Galaxy flagships</b>. Developed in <b>Java</b> with performance intensive parts in <b>C++</b>, such as model inference and data manipulation.
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Led the development of a <b>Android user-level application</b> intended to be on every <b>Samsung Galaxy</b>. Developed in <b>Kotlin</b> and utilized <b>Jetpack Compose</b> to create a dynamic and intuitive user interface. Collaborated closely with <b>cross-functional teams</b> to ensure seamless deployment and maintain high performance standards.
                                     </Bullet>
                                 </Bullet>
 
@@ -153,7 +162,7 @@ class Resume extends React.Component {
                                 </BriefNote>
 
                                 <Skill>
-                                    <b>General Software Development:</b> Windows(Win32, UWP, .NET), Android(Java), Java, Python, UEFI(EDKII), C, C++, C#
+                                    <b>General Software Development:</b> Windows(Win32, UWP, .NET), Android(Java, Kotlin, Jetpack Compose), Java, Python, UEFI(EDKII), C, C++, C#, CUDA
                                 </Skill>
 
                                 <Skill>
@@ -260,10 +269,11 @@ class Resume extends React.Component {
 
                             */}
                         
+                            {/*
                             <LinhaBranca></LinhaBranca>
-                            <Hobbies></Hobbies>
+                            <Hobbies></Hobbies>*/}
                             <LinhaBranca></LinhaBranca>
-                            <Description fontSize="20px" marginBottom="35.66px">
+                            <Description fontSize="20px" marginBottom="35px">
                                 TOEFL ITP B2
                             </Description>
 
