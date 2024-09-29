@@ -108,10 +108,10 @@ class Resume extends React.Component {
                                         {/*Decreased sample preprocessing time by <b>12x</b>, through the implementation of <b>GPGPU parallel processing</b> techniques. Implemented <b>CUDA kernels</b> for efficient signal cropping, noise injection, and min/max <b>reductions</b>. Filtered frequencies using <b>cuFFT</b> for a CUDA fast Fourier transform implementation, applied median filter using <b>NPP</b> library and implemented moving averages through <b>convolutions</b>.*/}
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Led the development of a <b>Android system-level security service</b> intended to be on <b>Samsung Galaxy flagships</b>. Developed in <b>Java</b> with performance intensive parts in <b>C++</b>, such as model inference and data manipulation.
+                                        Led the development of an <b>Android system-level security service</b> intended to be on <b>Samsung Galaxy flagships</b>. Developed in <b>Java</b> with performance intensive parts in <b>C++</b>, such as model inference and data manipulation.
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Led the development of a <b>Android user-level application</b> intended to be on every <b>Samsung Galaxy</b>. Developed in <b>Kotlin</b> and utilized <b>Jetpack Compose</b> to create a dynamic and intuitive user interface. Collaborated closely with <b>cross-functional teams</b> to ensure seamless deployment and maintain high performance standards.
+                                        Led the development of an <b>Android user-level application</b> intended to be on every <b>Samsung Galaxy</b>. Developed in <b>Kotlin</b> and utilized <b>Jetpack Compose</b> to create a dynamic and intuitive user interface. Collaborated closely with <b>cross-functional teams</b> to ensure seamless deployment and maintain high performance standards.
                                     </Bullet>
                                 </Bullet>
 
