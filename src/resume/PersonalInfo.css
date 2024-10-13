@@ -29,7 +29,7 @@
 
 .location{
     padding-left: 400px;
-    width: 450px;
+    width: auto;
     position: absolute;
 }
 
@@ -37,12 +37,12 @@
     position: absolute;
     margin-top: -48px;
     padding-left: 400px;
-    width: 400px;
+    width: auto;
 }
 
 .github{
     position: absolute;
     margin-top: -24px;
     padding-left: 400px;
-    width: 300px;
+    width: auto;
 }

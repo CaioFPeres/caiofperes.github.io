@@ -1,0 +1,31 @@
+:root {
+    --width-body: 200vw;
+    --height-body: 200vh;
+}
+
+.mapBackground{
+    display: block;
+    background-color: rgb(94, 122, 131);
+    width: var(--width-body);
+    height: var(--height-body);
+}
+
+.testDiv1{
+    display: inline-block;
+    background-color: rgb(155, 14, 21);
+    width: 200px;
+    height: 200px;
+    margin-left: 50vw;
+    margin-top: 50vh;
+    margin-right: auto;
+}
+
+.testDiv2{
+    display: inline-block;
+    background-color: rgb(16, 14, 155);
+    width: 200px;
+    height: 200px;
+    margin-left: 25vw;
+    margin-top: 25vh;
+    margin-right: auto;
+}

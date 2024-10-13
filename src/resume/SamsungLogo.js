@@ -7,7 +7,7 @@ class SamsungLogo extends React.Component {
     render() {
         return(
             <div>
-                <img className="SamsungLogo" src = {logo} alt="samsung"/>
+                <img className="SamsungLogo" src = {logo} alt="Samsung"/>
             </div>
             
         );

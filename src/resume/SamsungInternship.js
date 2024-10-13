@@ -11,7 +11,7 @@ class SamsungLogo extends React.Component {
                     <br></br>
                     March 2022 - September 2023
                 </div>
-                <div className="SamsungDepartment"><b>Security Researcher and Developer, Intern</b></div>
+                <div className="SamsungDepartment"><b>Security Researcher and Developer, Intern</b> <span style={{color: "white"}}>, Samsung Electronics</span></div>
             </div>
             
         );

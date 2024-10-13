@@ -1,0 +1,6 @@
+.Border {
+    display: inline-block;
+    position: relative;
+    border-radius: 6px;
+    padding: 6px 6px 6px 6px;
+}
