@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e21915ad.css",
-    "main.js": "/static/js/main.ca5d3be5.js",
+    "main.css": "/static/css/main.8ba6e9dd.css",
+    "main.js": "/static/js/main.647c0e96.js",
     "static/media/facedetectionpreview.png": "/static/media/facedetectionpreview.51a0f093863ea58179fd.png",
     "static/media/frevospreview.png": "/static/media/frevospreview.5235e6693eabc619603d.png",
     "static/media/authExamplepreview.png": "/static/media/authExamplepreview.49628e9b1f4a4617c7f5.png",
@@ -17,7 +17,6 @@
     "static/media/google-logo.png": "/static/media/google-logo.0199d8e79706fd721d63.png",
     "static/media/minecraftpreview.png": "/static/media/minecraftpreview.9b1a7ae12fddb1bb3835.png",
     "static/media/bancopreview.png": "/static/media/bancopreview.e962fff8cfb6ac338c9f.png",
-    "static/media/hobbies.jpg": "/static/media/hobbies.dc73df38e377d759f91d.jpg",
     "static/media/sunflower.otf": "/static/media/sunflower.80c060930d4a922a2603.otf",
     "static/media/serverpreview.png": "/static/media/serverpreview.76dbe3485a1ca8c9fed6.png",
     "static/media/loadbalancerpreview.png": "/static/media/loadbalancerpreview.d8b42bb5a0e172ec0dca.png",
@@ -27,11 +26,11 @@
     "static/media/Logo_Unesp.svg": "/static/media/Logo_Unesp.9d2ca55d93a9cc11151f53dab32ccdbc.svg",
     "static/media/BlackSamsungLogo.svg": "/static/media/BlackSamsungLogo.e663c31d808126568d9da62ea6ca260f.svg",
     "index.html": "/index.html",
-    "main.e21915ad.css.map": "/static/css/main.e21915ad.css.map",
-    "main.ca5d3be5.js.map": "/static/js/main.ca5d3be5.js.map"
+    "main.8ba6e9dd.css.map": "/static/css/main.8ba6e9dd.css.map",
+    "main.647c0e96.js.map": "/static/js/main.647c0e96.js.map"
   },
   "entrypoints": [
-    "static/css/main.e21915ad.css",
-    "static/js/main.ca5d3be5.js"
+    "static/css/main.8ba6e9dd.css",
+    "static/js/main.647c0e96.js"
   ]
 }
