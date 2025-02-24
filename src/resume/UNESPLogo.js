@@ -13,7 +13,7 @@ class UNESPLogo extends React.Component {
                     <br></br>
                     January 2021 - December 2021 
                 </div>
-                <div className="UNESPDepartment"><b>Software Engineer, Intern</b> <span style={{color: "white"}}>, UNESP</span></div>
+                <div className="UNESPDepartment"><b>Software Developer, Intern</b> <span style={{color: "white"}}>, UNESP</span></div>
             </div>
         );
     };

@@ -36,7 +36,7 @@ class Resume extends React.Component {
                             <LeftSection>Experience</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={793}>
+                        <SectionDiv marginTop={642}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Education</LeftSection>
                         </SectionDiv>
@@ -70,16 +70,16 @@ class Resume extends React.Component {
 
                                 <Bullet ul={true}>
                                     <Bullet ul={false}>
-                                        Led the development of new features for the <b>Samsung Health</b> application, present on every <b>Samsung Galaxy</b> and with more than <b>1 billion</b> downloads on play store. Developed in <b>Kotlin</b> with <b>Jetpack Compose</b>, and collaborated closely with <b>cross-functional teams</b> to meet high performance and accuracy standards.
+                                        Led the development of new features for the <b>Samsung Health</b> Android application, present on every <b>Samsung Galaxy</b> and with more than <b>1 billion</b> downloads on play store. Developed in <b>Kotlin</b> with <b>Jetpack Compose</b>, and collaborated closely with <b>cross-functional teams</b> to meet high performance and accuracy standards.
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Led the development of an <b>Android system-level security service</b> intended to be on <b>Samsung Galaxy flagships</b>. Developed in <b>Java</b> with performance intensive parts in <b>C++</b>. Automated its complex build system which <b>saved days</b> for new configurations.
+                                        Fine-tuned and trained a <b>Generative AI</b> model from scratch using <b>Pytorch</b> to reconstruct missing parts of images. The model was trained on <b>GPUs</b> achieving <b>98%</b> similarity with real data, and was optimized for efficient execution on <b>Android</b> devices.<br></br>
                                     </Bullet>
                                     <Bullet ul={false}>
                                         Led research to <b>explore vulnerabilities</b> in electronic devices using advanced <b>deep learning</b> techniques with <b>PyTorch</b>. Conducted <b>over 100</b> experiments to strengthen both the <b>attack and defense</b> and gain insights into the issue.<br></br>
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Implemented a one-dimensional <b>CNN architecture</b> for signal feature extraction and applied preprocessing techniques including signal drift detection, cropping, filtering, and augmentation through shifting and noise injection, which <b>increased data volume by 300%</b>.
+                                        Implemented a one-dimensional <b>CNN architecture</b> for signal feature extraction and applied preprocessing techniques including signal drift detection, cropping, filtering, and augmentation through shifting and noise injection, which <b>increased data volume by 200%</b>.
                                     </Bullet>
                                     <Bullet ul={false}>
                                         Employed the <b>One vs One</b> model approach resulting in an <b>18% improvement</b> in attack success rate.
@@ -105,7 +105,7 @@ class Resume extends React.Component {
                                         This novel approach achieved an accuracy of <b>99%</b> for authenticating users and resulted in the elaboration of an <b>academic paper</b> and submission of a <b>patent</b>. <br></br>
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Implemented many more software in <b>Java</b> and <b>C/C++</b> for <b>Windows</b>, <b>Android</b>, <b>embedded devices</b> and <b>UEFI</b>. <br></br>
+                                        Implemented many more software in <b>Java</b> and <b>C/C++</b> for <b>Windows</b>, <b>Android</b> and <b>embedded devices</b>. <br></br>
                                     </Bullet>
                                 </Bullet>
 
@@ -118,7 +118,8 @@ class Resume extends React.Component {
                                         Employed <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, along with essential <b>Firebase services</b> including Firebase Realtime Database, Firebase Authentication, Firebase Storage and Firebase Hosting. <br></br>
                                     </Bullet>
                                 </Bullet>
-                                    
+                                
+                                {/*
                                 <PersonalExperience></PersonalExperience>
                                 <Bullet ul={true}>
                                     <Bullet ul={false}>
@@ -131,6 +132,7 @@ class Resume extends React.Component {
                                         Developed several Web (HTML, CSS, Javascript, React), Machine Learning, Java, Android, Windows, C/C++ and C# applications.<br></br>
                                     </Bullet>
                                 </Bullet>
+                                */}
 
                             </Description>
                             <LinhaBranca></LinhaBranca>
@@ -145,7 +147,7 @@ class Resume extends React.Component {
                                 </BriefNote>
 
                                 <Skill>
-                                    <b>Software Development:</b> Windows(Win32, UWP, .NET), Android(Java, Kotlin, Jetpack Compose), Java, Python, UEFI(EDKII), C, C++, C#, CUDA, HTML, CSS, Javascript, Typescript, React, NodeJS
+                                    <b>Software Development:</b> Windows(Win32, UWP, .NET), Android(Java, Kotlin, Jetpack Compose), Java, Python, C, C++, C#, CUDA, HTML, CSS, Javascript, Typescript, React, NodeJS
                                 </Skill>
 
                                 <Skill>

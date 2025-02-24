@@ -9,7 +9,7 @@ class PersonalInfo extends React.Component {
 
                 <div className="nome">Caio Peres</div>
 
-                <div className="developer">Software Developer & Researcher</div>
+                <div className="developer">Software Developer</div>
 
                 <div className="info">
 

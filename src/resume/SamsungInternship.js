@@ -5,13 +5,13 @@ class SamsungLogo extends React.Component {
 
     render() {
         return(
-            <div>
+            <div style={{marginTop: "25px"}}>
                 <div className="SamsungLocationAndDate">
                     Campinas, SP
                     <br></br>
                     March 2022 - September 2023
                 </div>
-                <div className="SamsungDepartment"><b>Security Researcher and Developer, Intern</b> <span style={{color: "white"}}>, Samsung Electronics</span></div>
+                <div className="SamsungDepartment"><b>Software Developer and Researcher, Intern</b> <span style={{color: "white"}}>, Samsung Electronics</span></div>
             </div>
             
         );
