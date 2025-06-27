@@ -2,8 +2,9 @@
     height: 34px;
     width: 220px;
     transform-origin: left;
-    transform: scale(0.6);
-    object-fit: none;
-    display: inline-block;
+    transform: scale(0.75);
+    object-fit: cover;
+    display: block;
     margin-top: -3px;
+    margin-left: -15px;
 }
