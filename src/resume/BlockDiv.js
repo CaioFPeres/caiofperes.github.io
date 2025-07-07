@@ -6,8 +6,6 @@ class BlockDiv extends React.Component {
         position: "relative",
         display: "inline-block",
         verticalAlign: "top",
-        marginLeft: this.props.marginLeft || "auto",
-        marginRight: this.props.marginRight || "auto",
         height: "auto",
         width: this.props.width || "auto",
     }
