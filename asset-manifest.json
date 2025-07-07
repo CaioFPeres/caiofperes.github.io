@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.128eda27.css",
-    "main.js": "/static/js/main.31b41dfb.js",
+    "main.css": "/static/css/main.acc43ba7.css",
+    "main.js": "/static/js/main.31e41deb.js",
     "static/media/facedetectionpreview.png": "/static/media/facedetectionpreview.51a0f093863ea58179fd.png",
     "static/media/frevospreview.png": "/static/media/frevospreview.5235e6693eabc619603d.png",
     "static/media/authExamplepreview.png": "/static/media/authExamplepreview.49628e9b1f4a4617c7f5.png",
@@ -26,11 +26,11 @@
     "static/media/Logo_Unesp.svg": "/static/media/Logo_Unesp.9d2ca55d93a9cc11151f53dab32ccdbc.svg",
     "static/media/BlackSamsungLogo.svg": "/static/media/BlackSamsungLogo.e663c31d808126568d9da62ea6ca260f.svg",
     "index.html": "/index.html",
-    "main.128eda27.css.map": "/static/css/main.128eda27.css.map",
-    "main.31b41dfb.js.map": "/static/js/main.31b41dfb.js.map"
+    "main.acc43ba7.css.map": "/static/css/main.acc43ba7.css.map",
+    "main.31e41deb.js.map": "/static/js/main.31e41deb.js.map"
   },
   "entrypoints": [
-    "static/css/main.128eda27.css",
-    "static/js/main.31b41dfb.js"
+    "static/css/main.acc43ba7.css",
+    "static/js/main.31e41deb.js"
   ]
 }
