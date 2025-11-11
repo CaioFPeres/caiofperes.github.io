@@ -44,7 +44,17 @@ class CardProject extends React.Component {
   render() {
     return (
       <>
-        <Card sx={{ mr: 1, ml: this.props.content.marginLeft || 6, mb: 6, display: "inline-block", width: 330, boxShadow: "10px 10px rgb(143, 143, 143)" }} onClick={ event => { event.target.id = this.props.content.id; this.appendMenu(this.props.content.app, this.props.content.code, event)}} >
+        <Card sx={{ mr: this.props.content.marginRight || 1,
+                    ml: this.props.content.marginLeft || 6,
+                    mb: 6, 
+                    display: "inline-block", 
+                    width: 330,
+                    boxShadow: "10px 10px rgb(143, 143, 143)" 
+                  }} 
+                  onClick={ event => { 
+                    event.target.id = this.props.content.id; 
+                    this.appendMenu(this.props.content.app, this.props.content.code, event)
+                  }}>
           <CardActionArea>
             {this.state.menu}
             <CardMedia

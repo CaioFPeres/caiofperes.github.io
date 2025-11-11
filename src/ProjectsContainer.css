@@ -7,13 +7,10 @@
     margin-bottom: 100px;
 
     padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
     padding-bottom: 20px;
 
-    width: auto;
+    width: fit-content;
     max-width: 1000px;
-    min-width: 240px;
 
     text-align: center;
     height: auto;
@@ -32,6 +29,5 @@
 @media screen and (max-width: 600px){
     .ProjectsContainer{
         margin-top: 100px;
-        padding-left: 0px;
     }
 }

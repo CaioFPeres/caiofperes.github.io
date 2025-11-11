@@ -31,6 +31,8 @@ class OtherProjects extends React.Component {
                         description: "This is a Serial Library created in C++ for Windows, using Windows API. Can be used with Arduino-like boards.",
                         code: "https://github.com/CaioFPeres/WinSerialLibrary",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -40,6 +42,8 @@ class OtherProjects extends React.Component {
                         description: "This is a project for a DLL Injector and monitor, as well as with the DLL that will intercept recv() and send() calls.",
                         code: "https://github.com/CaioFPeres/DLLInjectionAndMonitor",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -49,6 +53,8 @@ class OtherProjects extends React.Component {
                         description: "This is a library made in C++ using WinAPI that shows how to create a trainer (without UI for now) for any game, given the address to read from or to write to.",
                         code: "https://github.com/CaioFPeres/TrainerLibrary",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -58,6 +64,8 @@ class OtherProjects extends React.Component {
                         description: "Created with Android Studio (Java).",
                         code: "https://github.com/CaioFPeres/FrevosFermentariaApp",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -67,6 +75,8 @@ class OtherProjects extends React.Component {
                         description: "This is an arduino code to wake a PC that is on the same private network than an Arduino Board.",
                         code: "https://github.com/CaioFPeres/WakeOnLanArduino",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -76,6 +86,8 @@ class OtherProjects extends React.Component {
                         description: "This is a CNN face detection project made with Dlib in C++, along with pre processing scripts in python. ",
                         code: "https://github.com/CaioFPeres/FaceDetectionProject",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -85,6 +97,8 @@ class OtherProjects extends React.Component {
                         description: "This is a CNN project made with Dlib for detecting smiles, using the FEI face dataset, folder b (smiling subjects).",
                         code: "https://github.com/CaioFPeres/FEISmileDetection",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -94,6 +108,8 @@ class OtherProjects extends React.Component {
                         description: "A web scrapper made with Nodejs to download Google Images.",
                         code: "https://github.com/CaioFPeres/GoogleImageWebScraper",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -103,6 +119,8 @@ class OtherProjects extends React.Component {
                         description: "C++ Windows program to download images off Google using Google Custom Search API.",
                         code: "https://github.com/CaioFPeres/GoogleImageCurl",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -112,6 +130,8 @@ class OtherProjects extends React.Component {
                         description: "C++ WinAPI program with UI that can watch a directory for changes and apply a given organization.",
                         code: "https://github.com/CaioFPeres/FileSorter",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -121,6 +141,8 @@ class OtherProjects extends React.Component {
                         description: "This is a Neural Network made from Scratch in C++ to be used for handwritten number recognition.",
                         code: "https://github.com/CaioFPeres/NeuralNetworkScratch",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -130,6 +152,8 @@ class OtherProjects extends React.Component {
                         description: "This is a infrastructure made with 2 VMs instanced through Vagrant, with Prometheus, cAdvisor(container) and Node Exporter, plus 3 custom Nodejs aplications.",
                         code: "https://github.com/CaioFPeres/NetworkMetrics",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -139,6 +163,8 @@ class OtherProjects extends React.Component {
                         description: "This is a L4 Load Balancer implemented with Round Robin approach in C#, using Docker.",
                         code: "https://github.com/CaioFPeres/LoadBalancer",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -148,6 +174,8 @@ class OtherProjects extends React.Component {
                         description: "Client and Server in C++ for Windows.",
                         code: "https://github.com/CaioFPeres/CPPClientServer",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -157,6 +185,8 @@ class OtherProjects extends React.Component {
                         description: "Server side mods (plugins) made in Java, using bukkit/spigot/paper library.",
                         code: "https://github.com/CaioFPeres/SkyChunksAndSkyIslands",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
@@ -166,6 +196,8 @@ class OtherProjects extends React.Component {
                         description: "A java desktop messaging aplication made with JavaFX, for server and client communication.",
                         code: "https://github.com/CaioFPeres/DesktopMessageAppJava",
                         imageHeight: 400,
+                        marginLeft: 2,
+                        marginRight: 3,
                         textHeight: 120
                         }}>
                     </CardProject>
