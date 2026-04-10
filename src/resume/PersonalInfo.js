@@ -13,7 +13,7 @@ class PersonalInfo extends React.Component {
 
                 <div className="info">
 
-                    <div className="location" style={{ marginLeft: "100px"}}> <b>Localization:</b> Campinas, São Paulo, Brazil</div>
+                    <div className="location" style={{ marginLeft: "100px"}}> <b>Location:</b> Campinas, São Paulo, Brazil</div>
 
                     <div className="phone" style={{ marginBottom: "2px"}}><b>Phone Number: </b>5514998708771</div>
 
