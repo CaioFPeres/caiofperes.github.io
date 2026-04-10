@@ -1,10 +1,10 @@
-.SamsungLogo{
-    height: 28px;
+.VennLogo{
+    height: 38px;
     width: 220px;
     transform-origin: left;
-    transform: scale(0.90);
+    transform: scale(0.75);
     object-fit: cover;
     display: block;
     margin-top: -3px;
-    margin-left: -17px;
+    margin-left: 1px;
 }

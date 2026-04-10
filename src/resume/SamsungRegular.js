@@ -1,7 +1,7 @@
 import React from 'react';
 import "./SamsungDesc.css";
 
-class SamsungLogo extends React.Component {
+class SamsungRegular extends React.Component {
 
     render() {
         return(
@@ -9,7 +9,7 @@ class SamsungLogo extends React.Component {
                 <div className="SamsungLocationAndDate">
                     Campinas, SP
                     <br></br>
-                    October 2023 - Present
+                    October 2023 - October 2025
                 </div>
                 <div className="SamsungDepartment"><b>Software Developer and Researcher</b> <span style={{color: "white"}}>, Samsung Electronics</span></div>
             </div>
@@ -17,4 +17,4 @@ class SamsungLogo extends React.Component {
     };
 }
 
-export default SamsungLogo;
+export default SamsungRegular;

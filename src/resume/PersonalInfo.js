@@ -21,7 +21,7 @@ class PersonalInfo extends React.Component {
 
                     <div className="linkedin" style={{ marginBottom: "2px"}}> <b>Linkedin: </b>https://linkedin.com/in/caiofperes/</div>
 
-                    <div className="web" style={{ marginLeft: "100px"}}><b>Portifolio: </b>https://caiofperes.github.io/</div>
+                    <div className="web" style={{ marginLeft: "100px"}}><b>Portfolio: </b>https://caiofperes.github.io/</div>
 
                     <div className="github" style={{ marginLeft: "100px"}}> <b>Github: </b>https://github.com/CaioFPeres</div>
 

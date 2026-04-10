@@ -15,6 +15,10 @@ import SectionDiv from './SectionDiv';
 import SamsungLogo from './SamsungLogo';
 import SamsungInternship from './SamsungInternship';
 import SamsungRegular from './SamsungRegular';
+import IlegraLogo from './IlegraLogo';
+import IlegraJohnRole from './IlegraJohnRole';
+import VennLogo from './VennLogo';
+import VennRole from './VennRole';
 import UNESPLogo from './UNESPLogo';
 import PersonalExperience from './PersonalExperience';
 import Skill from "./Skill"
@@ -36,7 +40,7 @@ class Resume extends React.Component {
                             <LeftSection>Experience</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={673}>
+                        <SectionDiv marginTop={967}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Education</LeftSection>
                         </SectionDiv>
@@ -46,7 +50,7 @@ class Resume extends React.Component {
                             <LeftSection>Technical Skills</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={192}>
+                        <SectionDiv marginTop={193}>
                             <LinhaCinza></LinhaCinza>
                             <LeftSection marginBottom = "59px">Achievements</LeftSection>
                         </SectionDiv>
@@ -64,6 +68,52 @@ class Resume extends React.Component {
                             <LinhaBranca></LinhaBranca>
 
                             <Description>
+
+                                <VennLogo></VennLogo>
+                                <VennRole></VennRole>
+
+                                <Bullet ul={true}>
+                                    <Bullet ul={false}>
+                                        Led end-to-end development of a <b>C#/.NET</b> Windows application, employing <b>Factory</b> pattern architectural design, <b>Azure CI/CD</b> pipeline setup, and ongoing improvements;
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Implemented specialized, <b>performance-critical system-level</b> algorithms for stress testing core product capabilities;
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Created a <b>parallelization framework</b> that granted extensibility for future features, <b>minimized lock contention</b>, and <b>cached</b> system resource <b>handles</b>, reducing <b>redundant Win32 calls</b> and cutting a legacy process execution time from <b>6 hours</b> to <b>7 minutes</b>;
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Managed low-level Windows resources including the <b>Registry</b>, <b>Firewall</b> rules, system <b>files</b>, and file <b>extensions</b>;
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Diagnosed and resolved bugs across multiple layers of the <b>Blue Border</b> core product.
+                                    </Bullet>
+
+                                </Bullet>
+
+                                <IlegraLogo></IlegraLogo>
+                                <IlegraJohnRole></IlegraJohnRole>
+
+                                <Bullet ul={true}>
+                                    <Bullet ul={false}>
+                                        Developed backend services for John Deere's <b>banking system</b> in <b>TypeScript</b> and <b>Node.js</b>, handling <b>millions</b> of financial requests, modernizing legacy systems, and integrating heterogeneous architectures;
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Architected and evolved the product's cloud infrastructure on <b>AWS</b> introducing new patterns, delivering features across <b>microservices</b>, and managing resources via <b>Terraform</b> (IaC) and <b>Jenkins</b> for CI/CD, utilizing <b>RDS</b>, <b>SQS</b>, <b>S3</b>, <b>Lambda</b>, and <b>API Gateway</b>;
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Designed and implemented <b>Event-Driven</b> Architecture patterns using <b>SNS</b> and <b>SQS</b>;
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Utilized observability practices across microservices using <b>New Relic</b> and native AWS monitoring tools for containers, Lambdas, and supporting infrastructure;
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Applied <b>Clean Architecture</b> principles, <b>enterprise</b> design patterns, and enforced quality through <b>unit</b> and <b>integration</b> testing;
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Enforced <b>authentication</b> and <b>authorization</b> standards using <b>Okta</b> across services exposed via <b>API Gateway</b>.
+                                    </Bullet>
+                                </Bullet>
 
                                 <SamsungLogo></SamsungLogo>
                                 <SamsungRegular></SamsungRegular>
@@ -106,10 +156,11 @@ class Resume extends React.Component {
                                         This novel approach achieved an accuracy of <b>99%</b> for authenticating users and resulted in the elaboration of an <b>academic paper</b> and submission of a <b>patent</b>. <a href="https://drive.google.com/file/d/124qK9xnE40dKGwbh7EYc-JUdy6nnFT3s/view?usp=sharing">[2]</a>
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Implemented many more software in <b>Java</b> and <b>C/C++</b> for <b>Windows</b>, <b>Android</b> and <b>embedded devices</b>.
+                                        Implemented many more software in <b>Java</b>, <b>C#</b> and <b>C/C++</b> for <b>Windows</b>, <b>Android</b> and <b>embedded devices</b>.
                                     </Bullet>
                                 </Bullet>
 
+                                {/*
                                 <UNESPLogo></UNESPLogo>
                                 <Bullet ul={true}>
                                     <Bullet ul={false}>
@@ -119,6 +170,7 @@ class Resume extends React.Component {
                                         Employed <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>React.js</b>, along with essential <b>Firebase services</b> including Firebase Realtime Database, Firebase Authentication, Firebase Storage and Firebase Hosting. <br></br>
                                     </Bullet>
                                 </Bullet>
+                                */}
                                 
                                 {/*
                                 <PersonalExperience></PersonalExperience>
@@ -148,7 +200,7 @@ class Resume extends React.Component {
                                 </BriefNote>
 
                                 <Skill>
-                                    <b>Software Development:</b> Windows(Win32, UWP, .NET), Android(Java, Kotlin, Jetpack Compose), Java, Python, C, C++, C#, CUDA, HTML, CSS, Javascript, Typescript, React, NodeJS
+                                    <b>Software Development:</b> Windows(Win32, UWP, .NET), Android(Java, Kotlin, Jetpack Compose), Java, Python, C, C++, C#, CUDA, HTML, CSS, JavaScript, TypeScript, React, Node.js, AWS Services
                                 </Skill>
 
                                 <Skill>
@@ -156,7 +208,7 @@ class Resume extends React.Component {
                                 </Skill>
 
                                 <Skill>
-                                    <b>Databases:</b> MySQL, PostgreSQL, SQL Server, Firebase Realtime Database, MongoDB
+                                    <b>Databases:</b> MySQL, PostgreSQL, SQL Server, Firebase Realtime Database, MongoDB, RDS
                                 </Skill>
 
                                 <Skill>
@@ -183,10 +235,10 @@ class Resume extends React.Component {
                         
                             <LinhaBranca></LinhaBranca>
                             <Description fontSize="16px" marginBottom="0px">
-                                <div style={{marginBottom: "5px"}}>
+                                <div style={{marginBottom: "6px"}}>
                                     <a href="https://dsn2025.github.io/cpaccepted.html">[1]</a> On the Feasibility of Exploiting the USB Power Line for Side-Channel Attacks against Samsung Smartphone Models
                                 </div>
-                                <div style={{marginBottom: "5px"}}>
+                                <div style={{marginBottom: "6px"}}>
                                     <a href="https://drive.google.com/file/d/124qK9xnE40dKGwbh7EYc-JUdy6nnFT3s/view?usp=sharing">[2]</a> US-20250182529-A1
                                 </div>
                                 <div style={{marginBottom: "0px"}}>

@@ -1,10 +1,10 @@
-.SamsungDepartment{
+.VennDepartment{
     font-size: 18px;
     display: block;
     margin-top: 5px;
 }
 
-.SamsungLocationAndDate{
+.VennLocationAndDate{
     font-size: 18px;
     display: inline;
     float: right;

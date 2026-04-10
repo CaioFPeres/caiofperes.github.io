@@ -1,0 +1,9 @@
+.IlegraLogo{
+    height: 38px;
+    width: 420px;
+    transform: scale(0.80);
+    object-fit: cover;
+    display: block;
+    margin-top: -6px;
+    margin-left: -43px;
+}

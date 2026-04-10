@@ -1,12 +1,12 @@
 import React from 'react';
 import "./SamsungDesc.css";
 
-class SamsungLogo extends React.Component {
+class SamsungInternship extends React.Component {
 
     render() {
         return(
-            <div style={{marginTop: "25px"}}>
-                <div className="SamsungLocationAndDate">
+            <div style={{marginTop: "35px"}}>
+                <div className="SamsungLocationAndDate" style={{marginTop: "-20px"}}>
                     Campinas, SP
                     <br></br>
                     March 2022 - September 2023
@@ -18,4 +18,4 @@ class SamsungLogo extends React.Component {
     };
 }
 
-export default SamsungLogo;
+export default SamsungInternship;
