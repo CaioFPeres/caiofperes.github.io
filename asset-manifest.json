@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8d1e9b0.css",
-    "main.js": "/static/js/main.cd1523ca.js",
+    "main.css": "/static/css/main.2417582d.css",
+    "main.js": "/static/js/main.fb223702.js",
     "static/media/facedetectionpreview.png": "/static/media/facedetectionpreview.51a0f093863ea58179fd.png",
     "static/media/frevospreview.png": "/static/media/frevospreview.5235e6693eabc619603d.png",
     "static/media/authExamplepreview.png": "/static/media/authExamplepreview.49628e9b1f4a4617c7f5.png",
@@ -10,6 +10,7 @@
     "static/media/dllinjectorpreview.png": "/static/media/dllinjectorpreview.70df911f92b8dc207dcd.png",
     "static/media/androidpreview.jpg": "/static/media/androidpreview.c9a444c2692e3fe376ba.jpg",
     "static/media/resumepreview.png": "/static/media/resumepreview.17dae461d8403bbb343b.png",
+    "static/media/ilegra-john.png": "/static/media/ilegra-john.3d33c1b2d0789fce88ff.png",
     "static/media/metricspreview.png": "/static/media/metricspreview.6df4a32f4fff04991ff0.png",
     "static/media/fileicon.jpg": "/static/media/fileicon.59d71502535176156f40.jpg",
     "static/media/neuralnetpreview.png": "/static/media/neuralnetpreview.ca37729a3c95fb5d6cc2.png",
@@ -25,12 +26,13 @@
     "static/media/wakeonlanpreview.png": "/static/media/wakeonlanpreview.a39ec09291943827d132.png",
     "static/media/Logo_Unesp.svg": "/static/media/Logo_Unesp.9d2ca55d93a9cc11151f53dab32ccdbc.svg",
     "static/media/BlackSamsungLogo.svg": "/static/media/BlackSamsungLogo.e663c31d808126568d9da62ea6ca260f.svg",
+    "static/media/VennLogo.svg": "/static/media/VennLogo.7463328f0a06abaaeb67a8d09767a0c6.svg",
     "index.html": "/index.html",
-    "main.a8d1e9b0.css.map": "/static/css/main.a8d1e9b0.css.map",
-    "main.cd1523ca.js.map": "/static/js/main.cd1523ca.js.map"
+    "main.2417582d.css.map": "/static/css/main.2417582d.css.map",
+    "main.fb223702.js.map": "/static/js/main.fb223702.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8d1e9b0.css",
-    "static/js/main.cd1523ca.js"
+    "static/css/main.2417582d.css",
+    "static/js/main.fb223702.js"
   ]
 }
