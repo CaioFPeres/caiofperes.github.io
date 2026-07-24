@@ -40,7 +40,7 @@ class Resume extends React.Component {
                             <LeftSection>Experience</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={967}>
+                        <SectionDiv marginTop={737}> {/*  967 */}
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Education</LeftSection>
                         </SectionDiv>
@@ -69,6 +69,7 @@ class Resume extends React.Component {
 
                             <Description>
 
+                                {/* 
                                 <VennLogo></VennLogo>
                                 <VennRole></VennRole>
 
@@ -88,8 +89,8 @@ class Resume extends React.Component {
                                     <Bullet ul={false}>
                                         Diagnosed and resolved bugs across multiple layers of the <b>Blue Border</b> core product.
                                     </Bullet>
-
                                 </Bullet>
+                                 */}
 
                                 <IlegraLogo></IlegraLogo>
                                 <IlegraJohnRole></IlegraJohnRole>
@@ -127,7 +128,7 @@ class Resume extends React.Component {
                                         {/*Led the development of an <b>Android system-level security service</b> intended to be on <b>Samsung Galaxy flagships</b>. Developed in <b>Java</b> with performance intensive parts in <b>C++</b>. Automated its complex build system which <b>saved days</b> for new configurations.*/}
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        Led research to <b>explore vulnerabilities</b> in electronic devices using advanced <b>deep learning</b> techniques in <b>Python</b> with <b>PyTorch</b>. Conducted <b>over 100</b> experiments to strengthen both the <b>attack and defense</b> and gain insights into the issue. <a href="https://dsn2025.github.io/cpaccepted.html">[1]</a>
+                                        Led research to <b>explore vulnerabilities</b> in electronic devices using advanced <b>deep learning</b> techniques in <b>Python</b> with <b>PyTorch</b>. Conducted <b>over 100</b> experiments to strengthen both the <b>attack and defense</b> and gain insights into the issue. <a href="https://ieeexplore.ieee.org/document/11068387">[1]</a>
                                     </Bullet>
                                     <Bullet ul={false}>
                                         Implemented a one-dimensional <b>CNN architecture</b> in <b>Python</b> using <b>PyTorch</b> for signal feature extraction and applied preprocessing techniques including signal drift detection, cropping, filtering, and augmentation through shifting and noise injection, which <b>increased data volume by 200%</b>.
@@ -153,7 +154,7 @@ class Resume extends React.Component {
                                         Utilized <b>Pandas</b>, <b>PyTorch</b>, <b>Scikit-learn</b>, <b>Numpy</b> and <b>Seaborn</b> in <b>Python</b>. Converted the <b>Python</b> inference pipeline to <b>C++</b> for the final deployment on <b>Android</b>, using <b>ONNX Runtime</b>.
                                     </Bullet>
                                     <Bullet ul={false}>
-                                        This novel approach achieved an accuracy of <b>99%</b> for authenticating users and resulted in the elaboration of an <b>academic paper</b> and submission of a <b>patent</b>. <a href="https://drive.google.com/file/d/124qK9xnE40dKGwbh7EYc-JUdy6nnFT3s/view?usp=sharing">[2]</a>
+                                        This novel approach achieved an accuracy of <b>99%</b> for authenticating users and resulted in the elaboration of an <b>academic paper</b> and submission of a <b>patent</b>. <a href="https://patents.google.com/patent/US20250182529A1/en">[2]</a>
                                     </Bullet>
                                     <Bullet ul={false}>
                                         Implemented many more software in <b>Java</b>, <b>C#</b> and <b>C/C++</b> for <b>Windows</b>, <b>Android</b> and <b>embedded devices</b>.
@@ -236,10 +237,10 @@ class Resume extends React.Component {
                             <LinhaBranca></LinhaBranca>
                             <Description fontSize="16px" marginBottom="0px">
                                 <div style={{marginBottom: "6px"}}>
-                                    <a href="https://dsn2025.github.io/cpaccepted.html">[1]</a> On the Feasibility of Exploiting the USB Power Line for Side-Channel Attacks against Samsung Smartphone Models
+                                    <a href="https://ieeexplore.ieee.org/document/11068387">[1]</a> On the Feasibility of Exploiting the USB Power Line for Side-Channel Attacks against Samsung Smartphone Models
                                 </div>
                                 <div style={{marginBottom: "6px"}}>
-                                    <a href="https://drive.google.com/file/d/124qK9xnE40dKGwbh7EYc-JUdy6nnFT3s/view?usp=sharing">[2]</a> US-20250182529-A1
+                                    <a href="https://patents.google.com/patent/US20250182529A1/en">[2]</a> US-20250182529-A1
                                 </div>
                                 <div style={{marginBottom: "0px"}}>
                                     TOEFL ITP B2
