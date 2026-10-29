@@ -40,7 +40,7 @@ class Resume extends React.Component {
                             <LeftSection>Experience</LeftSection>
                         </SectionDiv>
 
-                        <SectionDiv marginTop={737}> {/*  967 */}
+                        <SectionDiv marginTop={741}> {/*  967 */}
                             <LinhaCinza></LinhaCinza>
                             <LeftSection>Education</LeftSection>
                         </SectionDiv>
@@ -69,7 +69,6 @@ class Resume extends React.Component {
 
                             <Description>
 
-                                {/* 
                                 <VennLogo></VennLogo>
                                 <VennRole></VennRole>
 
@@ -90,8 +89,8 @@ class Resume extends React.Component {
                                         Diagnosed and resolved bugs across multiple layers of the <b>Blue Border</b> core product.
                                     </Bullet>
                                 </Bullet>
-                                 */}
 
+                                {/* 
                                 <IlegraLogo></IlegraLogo>
                                 <IlegraJohnRole></IlegraJohnRole>
 
@@ -115,6 +114,7 @@ class Resume extends React.Component {
                                         Enforced <b>authentication</b> and <b>authorization</b> standards using <b>Okta</b> across services exposed via <b>API Gateway</b>.
                                     </Bullet>
                                 </Bullet>
+                                */}
 
                                 <SamsungLogo></SamsungLogo>
                                 <SamsungRegular></SamsungRegular>
@@ -138,6 +138,9 @@ class Resume extends React.Component {
                                     </Bullet>
                                     <Bullet ul={false}>
                                         Decreased sample preprocessing time by <b>17x</b>, with the implementation of <b>parallel processing</b> techniques in both <b>CPU</b> and <b>GPU</b>.
+                                    </Bullet>
+                                    <Bullet ul={false}>
+                                        Optimized memory traffic through <b>tiling</b> and <b>operator fusion</b> on a specialized <b>GPU</b> kernel implementation in <b>C++</b> to accelerate the <b>inference pipeline</b>, achieving a <b>10x speedup</b> compared to the <b>Python</b> implementation.
                                     </Bullet>
                                 </Bullet>
 

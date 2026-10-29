@@ -42,11 +42,6 @@ class Border extends React.Component {
         clearInterval(this.state.interval);
         this.state.currentDeg = 90;
         this.state.beginning = 90;
-
-        let e = {};
-        e.target = {};
-        e.target.id = this.props.content.id;
-        this.props.content.onAnimationFinish(this.props.content.app, this.props.content.code, e);
 	}
 
     render() {

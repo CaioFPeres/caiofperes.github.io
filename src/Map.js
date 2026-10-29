@@ -1,5 +1,5 @@
 import React from 'react';
-import CardProject from "./CardProject"
+import CardProject from "./newCardProject"
 import frevoPreview from "./images/frevospreview.png";
 import bancoPreview from "./images/bancopreview.png";
 import resumepreview from "./images/resumepreview.png";
